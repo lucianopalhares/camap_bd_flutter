@@ -1,0 +1,194 @@
+!! PLEASE REVIEW THIS LOG FOR SENSITIVE INFORMATION BEFORE SHARING !!
+
+Dart Code extension: 3.66.0
+Flutter extension: 3.66.0 (not activated)
+
+App: Visual Studio Code
+Version: 1.78.2
+Platform: linux
+
+HTTP_PROXY: undefined
+NO_PROXY: undefined
+
+Logging Categories:
+    General
+
+Mon Jun 05 2023 [20:11:01 GMT-0300 (Brasilia Standard Time)] Log file started
+[8:11:01 PM] [General] [Info] Searching for SDKs...
+[8:11:01 PM] [General] [Info] Environment PATH:
+[8:11:01 PM] [General] [Info]     /home/luciano/Android/flutter/bin
+[8:11:01 PM] [General] [Info]     /home/luciano/ANDROID
+[8:11:01 PM] [General] [Info]     /home/luciano/Android/platform-tools
+[8:11:01 PM] [General] [Info]     /home/luciano/Android/cmdline-tools/tools/bin
+[8:11:01 PM] [General] [Info]     /home/luciano/Android/cmdline-tools/tools
+[8:11:01 PM] [General] [Info]     /home/linuxbrew/.linuxbrew/bin
+[8:11:01 PM] [General] [Info]     /home/linuxbrew/.linuxbrew/sbin
+[8:11:01 PM] [General] [Info]     /home/luciano/.nvm/versions/node/v12.22.7/bin
+[8:11:01 PM] [General] [Info]     /usr/local/sbin
+[8:11:01 PM] [General] [Info]     /usr/local/bin
+[8:11:01 PM] [General] [Info]     /usr/sbin
+[8:11:01 PM] [General] [Info]     /usr/bin
+[8:11:01 PM] [General] [Info]     /sbin
+[8:11:01 PM] [General] [Info]     /bin
+[8:11:01 PM] [General] [Info]     /usr/games
+[8:11:01 PM] [General] [Info]     /usr/local/games
+[8:11:01 PM] [General] [Info]     /snap/bin
+[8:11:01 PM] [General] [Info]     /snap/bin
+[8:11:01 PM] [General] [Info] Took 476ms to search for projects (5 levels)
+[8:11:01 PM] [General] [Info] Took 4ms to filter out excluded projects (0 exclusion rules)
+[8:11:01 PM] [General] [Info] Found Flutter project at /var/www/html/me/flutter/curso/camap_bd_flutter:
+			Mobile? true
+			Web? false
+			Create Trigger? false
+			Flutter Repo? false
+[8:11:01 PM] [General] [Info] Searching for flutter
+[8:11:01 PM] [General] [Info]     Looking for flutter in:
+[8:11:01 PM] [General] [Info]         /var/www/html/me/flutter/curso/camap_bd_flutter
+[8:11:01 PM] [General] [Info]         /var/www/html/me/flutter/curso/camap_bd_flutter/bin
+[8:11:01 PM] [General] [Info]         /home/luciano/Android/flutter/bin/
+[8:11:01 PM] [General] [Info]         /var/www/html/me/flutter/curso/camap_bd_flutter/.flutter
+[8:11:01 PM] [General] [Info]         /var/www/html/me/flutter/curso/camap_bd_flutter/.flutter/bin
+[8:11:01 PM] [General] [Info]         /var/www/html/me/flutter/curso/camap_bd_flutter/vendor/flutter
+[8:11:01 PM] [General] [Info]         /var/www/html/me/flutter/curso/camap_bd_flutter/vendor/flutter/bin
+[8:11:01 PM] [General] [Info]         /home/luciano/snap/flutter/common/flutter
+[8:11:01 PM] [General] [Info]         /home/luciano/snap/flutter/common/flutter/bin
+[8:11:01 PM] [General] [Info]         /home/luciano/flutter-sdk
+[8:11:01 PM] [General] [Info]         /home/luciano/flutter-sdk/bin
+[8:11:01 PM] [General] [Info]         /google/flutter
+[8:11:01 PM] [General] [Info]         /google/flutter/bin
+[8:11:01 PM] [General] [Info]         /home/luciano/Android/flutter/bin
+[8:11:01 PM] [General] [Info]         /home/luciano/ANDROID
+[8:11:01 PM] [General] [Info]         /home/luciano/ANDROID/bin
+[8:11:01 PM] [General] [Info]         /home/luciano/Android/platform-tools
+[8:11:01 PM] [General] [Info]         /home/luciano/Android/platform-tools/bin
+[8:11:01 PM] [General] [Info]         /home/luciano/Android/cmdline-tools/tools/bin
+[8:11:01 PM] [General] [Info]         /home/luciano/Android/cmdline-tools/tools
+[8:11:01 PM] [General] [Info]         /home/luciano/Android/cmdline-tools/tools/bin
+[8:11:01 PM] [General] [Info]         /home/linuxbrew/.linuxbrew/bin
+[8:11:01 PM] [General] [Info]         /home/linuxbrew/.linuxbrew/sbin
+[8:11:01 PM] [General] [Info]         /home/luciano/.nvm/versions/node/v12.22.7/bin
+[8:11:01 PM] [General] [Info]         /usr/local/sbin
+[8:11:01 PM] [General] [Info]         /usr/local/bin
+[8:11:01 PM] [General] [Info]         /usr/sbin
+[8:11:01 PM] [General] [Info]         /usr/bin
+[8:11:01 PM] [General] [Info]         /sbin
+[8:11:01 PM] [General] [Info]         /bin
+[8:11:01 PM] [General] [Info]         /usr/games
+[8:11:01 PM] [General] [Info]         /usr/games/bin
+[8:11:01 PM] [General] [Info]         /usr/local/games
+[8:11:01 PM] [General] [Info]         /usr/local/games/bin
+[8:11:01 PM] [General] [Info]         /snap/bin
+[8:11:01 PM] [General] [Info]         /snap/bin
+[8:11:01 PM] [General] [Info]     Found at:
+[8:11:01 PM] [General] [Info]         /home/luciano/Android/flutter/bin/
+[8:11:01 PM] [General] [Info]         /home/luciano/Android/flutter/bin
+[8:11:01 PM] [General] [Info]     Candidate paths to be post-filtered:
+[8:11:01 PM] [General] [Info]         /home/luciano/Android/flutter
+[8:11:01 PM] [General] [Info]         /home/luciano/Android/flutter
+[8:11:01 PM] [General] [Info]     Found at /home/luciano/Android/flutter
+[8:11:01 PM] [General] [Info]     Returning SDK path /home/luciano/Android/flutter for flutter
+[8:11:01 PM] [General] [Info] Searching for dart
+[8:11:01 PM] [General] [Info]     Looking for dart in:
+[8:11:01 PM] [General] [Info]         /home/luciano/Android/flutter/bin/cache/dart-sdk
+[8:11:01 PM] [General] [Info]         /home/luciano/Android/flutter/bin/cache/dart-sdk/bin
+[8:11:01 PM] [General] [Info]         /home/luciano/Android/flutter/bin
+[8:11:01 PM] [General] [Info]         /home/luciano/ANDROID
+[8:11:01 PM] [General] [Info]         /home/luciano/ANDROID/bin
+[8:11:01 PM] [General] [Info]         /home/luciano/Android/platform-tools
+[8:11:01 PM] [General] [Info]         /home/luciano/Android/platform-tools/bin
+[8:11:01 PM] [General] [Info]         /home/luciano/Android/cmdline-tools/tools/bin
+[8:11:01 PM] [General] [Info]         /home/luciano/Android/cmdline-tools/tools
+[8:11:01 PM] [General] [Info]         /home/luciano/Android/cmdline-tools/tools/bin
+[8:11:01 PM] [General] [Info]         /home/linuxbrew/.linuxbrew/bin
+[8:11:01 PM] [General] [Info]         /home/linuxbrew/.linuxbrew/sbin
+[8:11:01 PM] [General] [Info]         /home/luciano/.nvm/versions/node/v12.22.7/bin
+[8:11:01 PM] [General] [Info]         /usr/local/sbin
+[8:11:01 PM] [General] [Info]         /usr/local/bin
+[8:11:01 PM] [General] [Info]         /usr/sbin
+[8:11:01 PM] [General] [Info]         /usr/bin
+[8:11:01 PM] [General] [Info]         /sbin
+[8:11:01 PM] [General] [Info]         /bin
+[8:11:01 PM] [General] [Info]         /usr/games
+[8:11:01 PM] [General] [Info]         /usr/games/bin
+[8:11:01 PM] [General] [Info]         /usr/local/games
+[8:11:01 PM] [General] [Info]         /usr/local/games/bin
+[8:11:01 PM] [General] [Info]         /snap/bin
+[8:11:01 PM] [General] [Info]         /snap/bin
+[8:11:01 PM] [General] [Info]         /home/luciano/Android/flutter/bin/cache/dart-sdk
+[8:11:01 PM] [General] [Info]         /home/luciano/Android/flutter/bin/cache/dart-sdk/bin
+[8:11:01 PM] [General] [Info]     Found at:
+[8:11:01 PM] [General] [Info]         /home/luciano/Android/flutter/bin/cache/dart-sdk/bin
+[8:11:01 PM] [General] [Info]         /home/luciano/Android/flutter/bin
+[8:11:01 PM] [General] [Info]         /home/linuxbrew/.linuxbrew/bin
+[8:11:01 PM] [General] [Info]         /usr/bin
+[8:11:01 PM] [General] [Info]         /bin
+[8:11:01 PM] [General] [Info]         /home/luciano/Android/flutter/bin/cache/dart-sdk/bin
+[8:11:01 PM] [General] [Info] Following symlink: /home/linuxbrew/.linuxbrew/bin/dart ==> /home/linuxbrew/.linuxbrew/Cellar/dart/2.19.5/libexec/bin/dart
+[8:11:01 PM] [General] [Info] Following symlink: /usr/bin/dart ==> /usr/lib/dart/bin/dart
+[8:11:01 PM] [General] [Info] Following symlink: /bin/dart ==> /usr/lib/dart/bin/dart
+[8:11:01 PM] [General] [Info]     Candidate paths to be post-filtered:
+[8:11:01 PM] [General] [Info]         /home/luciano/Android/flutter/bin/cache/dart-sdk
+[8:11:01 PM] [General] [Info]         /home/luciano/Android/flutter
+[8:11:01 PM] [General] [Info]         /home/linuxbrew/.linuxbrew/Cellar/dart/2.19.5/libexec
+[8:11:01 PM] [General] [Info]         /usr/lib/dart
+[8:11:01 PM] [General] [Info]         /usr/lib/dart
+[8:11:01 PM] [General] [Info]         /home/luciano/Android/flutter/bin/cache/dart-sdk
+[8:11:01 PM] [General] [Info]     Found at /home/luciano/Android/flutter/bin/cache/dart-sdk
+[8:11:01 PM] [General] [Info]     Returning SDK path /home/luciano/Android/flutter/bin/cache/dart-sdk for dart
+[8:11:02 PM] [General] [Info] Experiment random number is 32 for experiment 'sdkDaps'. Experiment is enabled for <= 30
+[8:11:02 PM] [General] [Info] Experiment 'sdkDaps' does not apply and will not be activated
+[8:11:02 PM] [General] [Info] Experiment random number is 32 for experiment 'sdkDaps'. Experiment is enabled for <= 10
+[8:11:02 PM] [General] [Info] Experiment 'sdkDaps' does not apply and will not be activated
+[8:11:02 PM] [General] [Info] !! PLEASE REVIEW THIS LOG FOR SENSITIVE INFORMATION BEFORE SHARING !!
+
+Dart Code extension: 3.66.0
+Flutter extension: 3.66.0 (not activated)
+
+App: Visual Studio Code
+Version: 1.78.2
+Platform: linux
+
+Workspace type: Flutter
+Analyzer type: LSP
+Multi-root?: false
+
+Dart SDK:
+    Loc: /home/luciano/Android/flutter/bin/cache/dart-sdk
+    Ver: 2.19.6
+Flutter SDK:
+    Loc: /home/luciano/Android/flutter
+    Ver: 3.7.10
+
+HTTP_PROXY: undefined
+NO_PROXY: undefined
+[8:11:02 PM] [General] [Info] Returning cached results for project search
+[8:11:02 PM] [General] [Info] Activating Flutter extension for Flutter project...
+[8:11:02 PM] [General] [Info] Version last used for Pub is 2.19.6 (2.19.0), current is 2.19.6 (2.19.0)
+[8:11:02 PM] [General] [Info] Found 0 folders requiring "pub get" or "pub upgrade":
+[8:11:02 PM] [General] [Info] Loaded 20000 package names from vscode-userdata:/home/luciano/.config/Code/User/globalStorage/dart-code.dart-code/package_cache.json
+[8:11:02 PM] [General] [Info] !! PLEASE REVIEW THIS LOG FOR SENSITIVE INFORMATION BEFORE SHARING !!
+
+Dart Code extension: 3.66.0
+Flutter extension: 3.66.0 (activated)
+
+App: Visual Studio Code
+Version: 1.78.2
+Platform: linux
+
+Workspace type: Flutter
+Analyzer type: LSP
+Multi-root?: false
+
+Dart SDK:
+    Loc: /home/luciano/Android/flutter/bin/cache/dart-sdk
+    Ver: 2.19.6
+Flutter SDK:
+    Loc: /home/luciano/Android/flutter
+    Ver: 3.7.10
+
+HTTP_PROXY: undefined
+NO_PROXY: undefined
+[8:11:06 PM] [General] [Info] Returning cached results for project search
+[8:11:06 PM] [General] [Info] Checking 1 projects for supported platforms
+[8:11:06 PM] [General] [Info] Supported platforms for the workspace are linux, macos, windows, ios, android, web
+[8:11:06 PM] [General] [Info] Returning cached promise for getSupportedPlatforms()
