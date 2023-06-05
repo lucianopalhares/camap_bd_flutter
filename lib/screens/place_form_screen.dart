@@ -16,8 +16,14 @@ class _PlaceFormScreenState extends State<PlaceFormScreen> {
       appBar: AppBar(
         title: Text('Novo Lugar'),
       ),
-      body: Center(
-        child: Text('Form!!'),
+      body: Column(
+        children: <Widget>[
+          TextField(
+            decoration: InputDecoration(
+              labelText: 'Titulo'
+            ),
+          )
+        ]
       ),
     );
   }
