@@ -1,3 +1,4 @@
+
 import 'package:flutter/material.dart';
 import 'package:flutter/src/widgets/framework.dart';
 import 'package:flutter/src/widgets/placeholder.dart';
@@ -10,6 +11,14 @@ class PlacesListScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text('Meus Lugares'), 
+        actions: [
+          IconButton(
+            onPressed: () {
+              
+            }, 
+            icon: Icon(Icons.add)
+          )
+        ],
       ),
       body: Center(
         child: CircularProgressIndicator(),

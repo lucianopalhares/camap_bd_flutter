@@ -253,3 +253,8 @@ NO_PROXY: undefined
 [8:14:00 PM] [General] [Info] Event will be queued and processed when the session start event fires
 [8:14:00 PM] [General] [Info] Processing delayed event dart.progressStart for session 8f71bba3-5da7-430d-bf8e-56fe11965af9
 [8:14:30 PM] [General] [Info] Returning cached results for project search
+[8:24:20 PM] [FlutterRun] [Error] [Dart  (Moto G50 API 31)] lib/screens/places_list_screen.dart:17:47: Error: The getter 'AppRoutes' isn't defined for the class 'PlacesListScreen'.
+[8:24:20 PM] [FlutterRun] [Error] [Dart  (Moto G50 API 31)]  - 'PlacesListScreen' is from 'package:camap_bd_flutter/screens/places_list_screen.dart' ('lib/screens/places_list_screen.dart').
+Try correcting the name to the name of an existing getter, or defining a getter or field named 'AppRoutes'.
+              Navigator.of(context).pushNamed(AppRoutes.PLACE_FORM);
+                                              ^^^^^^^^^
