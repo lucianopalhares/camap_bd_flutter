@@ -322,3 +322,8 @@ Try correcting the name to the name of an existing getter, or defining a getter 
 [8:29:22 PM] [General] [Info] Processing delayed event dart.progressStart for session 4021ca48-1ea2-467e-8613-55c42219a81f
 [8:29:33 PM] [General] [Info] Returning cached results for project search
 [8:30:15 PM] [General] [Info] Returning cached results for project search
+[8:33:35 PM] [General] [Info] Pubspec /var/www/html/me/flutter/curso/camap_bd_flutter/pubspec.yaml was modified
+[8:33:36 PM] [General] [Info] Returning cached results for project search
+[8:33:36 PM] [General] [Info] Version last used for Pub is 2.19.6 (2.19.0), current is 2.19.6 (2.19.0)
+[8:33:36 PM] [General] [Info] Found 1 folders requiring "pub get" or "pub upgrade":
+    /var/www/html/me/flutter/curso/camap_bd_flutter (get: true, upgrade: false, reason: pubspec.yaml was modified (Mon Jun 05 2023 20:33:35 GMT-0300 (Brasilia Standard Time)) more recently than pubspec.lock (Mon Jun 05 2023 20:08:40 GMT-0300 (Brasilia Standard Time)))
