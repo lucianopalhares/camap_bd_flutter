@@ -258,3 +258,67 @@ NO_PROXY: undefined
 Try correcting the name to the name of an existing getter, or defining a getter or field named 'AppRoutes'.
               Navigator.of(context).pushNamed(AppRoutes.PLACE_FORM);
                                               ^^^^^^^^^
+[8:29:03 PM] [General] [Info] Took 35ms to search for projects (5 levels)
+[8:29:03 PM] [General] [Info] Took 6ms to filter out excluded projects (0 exclusion rules)
+[8:29:22 PM] [General] [Info] Starting debug session...
+[8:29:22 PM] [General] [Info]     workspace: /var/www/html/me/flutter/curso/camap_bd_flutter
+[8:29:22 PM] [General] [Info]     program  : /var/www/html/me/flutter/curso/camap_bd_flutter/lib/main.dart
+[8:29:22 PM] [General] [Info] Setting cwd based on likely entry point: /var/www/html/me/flutter/curso/camap_bd_flutter
+[8:29:22 PM] [General] [Info] Using workspace as cwd: /var/www/html/me/flutter/curso/camap_bd_flutter
+[8:29:22 PM] [General] [Info] Detected launch project as Flutter
+[8:29:22 PM] [General] [Info] Using Flutter debug adapter for this session
+[8:29:22 PM] [General] [Info] Getting DevTools server address to pass to Flutter...
+[8:29:22 PM] [General] [Info] Checking for errors before launching
+[8:29:22 PM] [General] [Info] Debug session starting...
+    {
+        "name": "Dart  (Moto G50 API 31)",
+        "noDebug": false,
+        "request": "launch",
+        "type": "dart",
+        "groupId": 0,
+        "program": "/var/www/html/me/flutter/curso/camap_bd_flutter/lib/main.dart",
+        "dartCodeDebugSessionID": "session-dc13c",
+        "cwd": "/var/www/html/me/flutter/curso/camap_bd_flutter",
+        "deviceId": "emulator-5554",
+        "deviceName": "Moto G50 API 31 (android-x64)",
+        "toolEnv": {
+            "FLUTTER_HOST": "VSCode",
+            "PUB_ENVIRONMENT": "vscode.dart-code"
+        },
+        "sendLogsToClient": false,
+        "sendCustomProgressEvents": true,
+        "additionalProjectPaths": [
+            "/var/www/html/me/flutter/curso/camap_bd_flutter"
+        ],
+        "args": [],
+        "vmAdditionalArgs": [
+            "--no-sound-null-safety"
+        ],
+        "toolArgs": [
+            "--no-sound-null-safety",
+            "-d",
+            "emulator-5554",
+            "--devtools-server-address",
+            "http://127.0.0.1:9100/"
+        ],
+        "vmServicePort": 0,
+        "dartSdkPath": "/home/luciano/Android/flutter/bin/cache/dart-sdk",
+        "maxLogLineLength": 2000,
+        "debugSdkLibraries": false,
+        "debugExternalPackageLibraries": false,
+        "showDartDeveloperLogs": true,
+        "evaluateGettersInDebugViews": true,
+        "evaluateToStringInDebugViews": true,
+        "flutterSdkPath": "/home/luciano/Android/flutter",
+        "useInspectorNotificationsForWidgetErrors": true,
+        "showMemoryUsage": false,
+        "debuggerType": 2
+    }
+[8:29:22 PM] [General] [Info] Using flutter debugger for Flutter
+[8:29:22 PM] [General] [Info] SDK DAP setting is false, set by sdkDaps experiment
+[8:29:22 PM] [General] [Info] Running debugger via node with /home/luciano/.vscode/extensions/dart-code.dart-code-3.66.0/out/dist/debug.js    flutter
+[8:29:22 PM] [General] [Info] Did not find session 4021ca48-1ea2-467e-8613-55c42219a81f to handle dart.progressStart. There were 0 sessions:
+[8:29:22 PM] [General] [Info] Event will be queued and processed when the session start event fires
+[8:29:22 PM] [General] [Info] Processing delayed event dart.progressStart for session 4021ca48-1ea2-467e-8613-55c42219a81f
+[8:29:33 PM] [General] [Info] Returning cached results for project search
+[8:30:15 PM] [General] [Info] Returning cached results for project search

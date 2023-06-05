@@ -1,4 +1,6 @@
+import 'package:camap_bd_flutter/screens/place_form_screen.dart';
 import 'package:camap_bd_flutter/screens/places_list_screen.dart';
+import 'package:camap_bd_flutter/utils/app_routes.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -18,7 +20,10 @@ class MyApp extends StatelessWidget {
         accentColor: Colors.amber, 
         visualDensity: VisualDensity.adaptivePlatformDensity
       ),
-      home: PlacesListScreen()
+      home: PlacesListScreen(), 
+      routes: {
+        AppRoutes.PLACE_FORM: (ctx) => PlaceFormScreen()
+      },
     );
   }
 }
