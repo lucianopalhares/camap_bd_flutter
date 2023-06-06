@@ -26,6 +26,16 @@ class _ImageInputState extends State<ImageInput> {
           child: Text('Nenhuma imagem!'),
         ), 
         SizedBox(width: 10,), 
+        TextButton.icon(
+          onPressed: () {
+
+          }, 
+          icon: Icon(Icons.camera), 
+          label: Text('Tirar Foto'), 
+          style: TextButton.styleFrom(
+            primary: Colors.black
+          )
+        )
       ]
     );
   }
