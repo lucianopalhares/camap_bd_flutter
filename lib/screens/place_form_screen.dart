@@ -11,6 +11,13 @@ class PlaceFormScreen extends StatefulWidget {
 }
 
 class _PlaceFormScreenState extends State<PlaceFormScreen> {
+
+  final _titleController = TextEditingController();
+
+  void _submitForm() {
+
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -26,6 +33,7 @@ class _PlaceFormScreenState extends State<PlaceFormScreen> {
               child: Column(
                 children: <Widget>[
                   TextField(
+                    controller: _titleController,
                     decoration: InputDecoration(
                       labelText: 'Titulo'
                     ),
@@ -36,7 +44,7 @@ class _PlaceFormScreenState extends State<PlaceFormScreen> {
             ),
           ),
           TextButton.icon(
-            onPressed: () {}, 
+            onPressed: _submitForm, 
             icon: Icon(Icons.add), 
             label: Text('Adicionar'), 
             style: TextButton.styleFrom(
