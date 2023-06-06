@@ -18,14 +18,27 @@ class _PlaceFormScreenState extends State<PlaceFormScreen> {
         title: Text('Novo Lugar'),
       ),
       body: Column(
-        children: <Widget>[
-          TextField(
-            decoration: InputDecoration(
-              labelText: 'Titulo'
+        crossAxisAlignment: CrossAxisAlignment.stretch,
+        children: [
+          Column(
+            children: <Widget>[
+              TextField(
+                decoration: InputDecoration(
+                  labelText: 'Titulo'
+                ),
+              ), 
+              ImageInput()
+            ]
+          ),
+          TextButton.icon(
+            onPressed: () {}, 
+            icon: Icon(Icons.add), 
+            label: Text('Adicionar'), 
+            style: TextButton.styleFrom(
+              backgroundColor: Colors.orangeAccent
             ),
-          ), 
-          ImageInput()
-        ]
+          )
+        ],
       ),
     );
   }
