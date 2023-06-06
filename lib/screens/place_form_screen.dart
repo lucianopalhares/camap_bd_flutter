@@ -20,17 +20,19 @@ class _PlaceFormScreenState extends State<PlaceFormScreen> {
       body: Column(
         crossAxisAlignment: CrossAxisAlignment.stretch,
         children: [
-          Padding(
-            padding: const EdgeInsets.all(8.0),
-            child: Column(
-              children: <Widget>[
-                TextField(
-                  decoration: InputDecoration(
-                    labelText: 'Titulo'
-                  ),
-                ), 
-                ImageInput()
-              ]
+          SingleChildScrollView(
+            child: Padding(
+              padding: const EdgeInsets.all(8.0),
+              child: Column(
+                children: <Widget>[
+                  TextField(
+                    decoration: InputDecoration(
+                      labelText: 'Titulo'
+                    ),
+                  ), 
+                  ImageInput()
+                ]
+              ),
             ),
           ),
           TextButton.icon(
@@ -38,9 +40,12 @@ class _PlaceFormScreenState extends State<PlaceFormScreen> {
             icon: Icon(Icons.add), 
             label: Text('Adicionar'), 
             style: TextButton.styleFrom(
-              backgroundColor: Colors.orangeAccent
+              backgroundColor: Colors.orangeAccent, 
+              elevation: 0, 
+              tapTargetSize: MaterialTapTargetSize.shrinkWrap, 
+              
             ),
-          )
+          ), 
         ],
       ),
     );

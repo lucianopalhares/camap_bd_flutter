@@ -327,3 +327,5 @@ Try correcting the name to the name of an existing getter, or defining a getter 
 [8:33:36 PM] [General] [Info] Version last used for Pub is 2.19.6 (2.19.0), current is 2.19.6 (2.19.0)
 [8:33:36 PM] [General] [Info] Found 1 folders requiring "pub get" or "pub upgrade":
     /var/www/html/me/flutter/curso/camap_bd_flutter (get: true, upgrade: false, reason: pubspec.yaml was modified (Mon Jun 05 2023 20:33:35 GMT-0300 (Brasilia Standard Time)) more recently than pubspec.lock (Mon Jun 05 2023 20:08:40 GMT-0300 (Brasilia Standard Time)))
+[9:32:05 PM] [General] [Info] Took 32ms to search for projects (5 levels)
+[9:32:05 PM] [General] [Info] Took 3ms to filter out excluded projects (0 exclusion rules)
