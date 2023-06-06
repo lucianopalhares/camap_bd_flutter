@@ -20,15 +20,18 @@ class _PlaceFormScreenState extends State<PlaceFormScreen> {
       body: Column(
         crossAxisAlignment: CrossAxisAlignment.stretch,
         children: [
-          Column(
-            children: <Widget>[
-              TextField(
-                decoration: InputDecoration(
-                  labelText: 'Titulo'
-                ),
-              ), 
-              ImageInput()
-            ]
+          Padding(
+            padding: const EdgeInsets.all(8.0),
+            child: Column(
+              children: <Widget>[
+                TextField(
+                  decoration: InputDecoration(
+                    labelText: 'Titulo'
+                  ),
+                ), 
+                ImageInput()
+              ]
+            ),
           ),
           TextButton.icon(
             onPressed: () {}, 
