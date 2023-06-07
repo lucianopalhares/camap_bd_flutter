@@ -1,3 +1,5 @@
+import 'dart:io';
+
 import 'package:camap_bd_flutter/widgets/image_input.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/src/widgets/framework.dart';
@@ -13,9 +15,18 @@ class PlaceFormScreen extends StatefulWidget {
 class _PlaceFormScreenState extends State<PlaceFormScreen> {
 
   final _titleController = TextEditingController();
+  late File _pickedImage;
+
+  void _selectImage(File pickedImage) {
+    _pickedImage = pickedImage;
+  }
 
   void _submitForm() {
+    if (_titleController.text.isEmpty || _pickedImage == null) {
+      return;
+    }
 
+    Navigator.of(context).pop();
   }
 
   @override
@@ -38,7 +49,7 @@ class _PlaceFormScreenState extends State<PlaceFormScreen> {
                       labelText: 'Titulo'
                     ),
                   ), 
-                  ImageInput()
+                  ImageInput(this._selectImage)
                 ]
               ),
             ),

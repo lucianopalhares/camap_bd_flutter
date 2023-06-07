@@ -4,9 +4,12 @@ import 'package:flutter/material.dart';
 import 'package:flutter/src/widgets/framework.dart';
 import 'package:flutter/src/widgets/placeholder.dart';
 import 'package:image_picker/image_picker.dart';
-
+import 'package:path_provider/path_provider.dart' as syspaths;
+import 'package:path/path.dart' as path;
 class ImageInput extends StatefulWidget {
-  const ImageInput({super.key});
+  final Function onSelectImage;
+
+  const ImageInput(this.onSelectImage);
 
   @override
   State<ImageInput> createState() => _ImageInputState();
@@ -14,19 +17,20 @@ class ImageInput extends StatefulWidget {
 
 class _ImageInputState extends State<ImageInput> {
 
-  late String imageFilePath;
+  Widget fieldFile = Text('Nenhuma imagem entra!');
   final _picker = ImagePicker();
 
   @override
   void initState() {
     // TODO: implement initState
     super.initState();
-    imageFilePath = '';
   }
 
   void _takePicture() async {
 
     try {
+
+      File imageFilePath = File('');
        
       final XFile? imageFile = await _picker.pickImage(
         source: ImageSource.camera,
@@ -38,28 +42,26 @@ class _ImageInputState extends State<ImageInput> {
       }
 
       setState(() {
-        imageFilePath = imageFile.path;
+        imageFilePath = File(imageFile.path);
+
+        fieldFile = Image.file(
+          imageFilePath, 
+          width: double.infinity,
+          fit: BoxFit.cover,
+        );
       });
+
+      //diretorio armazenar imagem
+      final appDir = await syspaths.getApplicationDocumentsDirectory();
+      String fileName = path.basename(imageFile.path);
+      final savedImage = await imageFilePath.copy(
+        '${appDir.path}/${fileName}'
+      );
+      widget.onSelectImage(savedImage);
 
     } catch (e) {
       print('_takePicture = $e');
     }
-  }
-
-  Widget getFile() {
-      
-    if (imageFilePath != '') {
-
-      return Image.file(
-        File(imageFilePath), 
-        width: double.infinity,
-        fit: BoxFit.cover,
-      );
-
-    } else {
-      return Text('Nenhuma imagem entra!');
-    }
-      
   }
 
   @override
@@ -75,7 +77,7 @@ class _ImageInputState extends State<ImageInput> {
             ), 
           ),
           alignment: Alignment.center,
-          child: getFile(),
+          child: fieldFile,
         ), 
         SizedBox(width: 10,), 
         TextButton.icon(
