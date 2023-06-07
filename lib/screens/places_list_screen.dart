@@ -1,7 +1,9 @@
+import 'package:camap_bd_flutter/providers/great_places.dart';
 import 'package:camap_bd_flutter/utils/app_routes.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/src/widgets/framework.dart';
 import 'package:flutter/src/widgets/placeholder.dart';
+import 'package:provider/provider.dart';
 
 class PlacesListScreen extends StatelessWidget {
   const PlacesListScreen({super.key});
@@ -20,8 +22,17 @@ class PlacesListScreen extends StatelessWidget {
           )
         ],
       ),
-      body: Center(
-        child: CircularProgressIndicator(),
+      body: Consumer<GreatPlaces>(
+        child: Center(child: Text('Nenhum local cadastrado!')), 
+        builder: (contextBuilder, greatPlaces, childBuilder) => 
+          greatPlaces.itemsCount == 0 
+          ? Text('Não possui nenhum local!') 
+          : ListView.builder(
+              itemCount: greatPlaces.itemsCount,
+              itemBuilder: 
+                (contextItemBuilder, indexItemBuilder) => 
+                Text('Local cadastrado')
+            )
       ),
     );
   }
