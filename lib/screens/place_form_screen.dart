@@ -1,10 +1,11 @@
 import 'dart:io';
 
+import 'package:camap_bd_flutter/providers/great_places.dart';
 import 'package:camap_bd_flutter/widgets/image_input.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/src/widgets/framework.dart';
 import 'package:flutter/src/widgets/placeholder.dart';
-
+import 'package:provider/provider.dart';
 class PlaceFormScreen extends StatefulWidget {
   const PlaceFormScreen({super.key});
 
@@ -25,6 +26,11 @@ class _PlaceFormScreenState extends State<PlaceFormScreen> {
     if (_titleController.text.isEmpty || _pickedImage == null) {
       return;
     }
+
+    Provider.of<GreatPlaces>(
+      context,
+      listen: false
+    ).addPlace(_titleController.text, _pickedImage);
 
     Navigator.of(context).pop();
   }
