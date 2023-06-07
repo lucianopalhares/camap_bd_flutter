@@ -1,6 +1,9 @@
+import 'dart:io';
+
 import 'package:flutter/material.dart';
 import 'package:flutter/src/widgets/framework.dart';
 import 'package:flutter/src/widgets/placeholder.dart';
+import 'package:image_picker/image_picker.dart';
 
 class ImageInput extends StatefulWidget {
   const ImageInput({super.key});
@@ -10,6 +13,55 @@ class ImageInput extends StatefulWidget {
 }
 
 class _ImageInputState extends State<ImageInput> {
+
+  late String imageFilePath;
+  final _picker = ImagePicker();
+
+  @override
+  void initState() {
+    // TODO: implement initState
+    super.initState();
+    imageFilePath = '';
+  }
+
+  void _takePicture() async {
+
+    try {
+       
+      final XFile? imageFile = await _picker.pickImage(
+        source: ImageSource.camera,
+        maxWidth: 600
+      );
+
+      if (imageFile == null) {
+        return;
+      }
+
+      setState(() {
+        imageFilePath = imageFile.path;
+      });
+
+    } catch (e) {
+      print('_takePicture = $e');
+    }
+  }
+
+  Widget getFile() {
+      
+    if (imageFilePath != '') {
+
+      return Image.file(
+        File(imageFilePath), 
+        width: double.infinity,
+        fit: BoxFit.cover,
+      );
+
+    } else {
+      return Text('Nenhuma imagem entra!');
+    }
+      
+  }
+
   @override
   Widget build(BuildContext context) {
     return Row(
@@ -23,13 +75,11 @@ class _ImageInputState extends State<ImageInput> {
             ), 
           ),
           alignment: Alignment.center,
-          child: Text('Nenhuma imagem!'),
+          child: getFile(),
         ), 
         SizedBox(width: 10,), 
         TextButton.icon(
-          onPressed: () {
-
-          }, 
+          onPressed: _takePicture, 
           icon: Icon(Icons.camera), 
           label: Text('Tirar Foto'), 
           style: TextButton.styleFrom(
