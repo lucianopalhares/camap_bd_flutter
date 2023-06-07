@@ -31,7 +31,15 @@ class PlacesListScreen extends StatelessWidget {
               itemCount: greatPlaces.itemsCount,
               itemBuilder: 
                 (contextItemBuilder, indexItemBuilder) => 
-                Text('Local cadastrado')
+                ListTile(
+                  leading: CircleAvatar(
+                    backgroundImage: FileImage(
+                      greatPlaces.itemByIndex(indexItemBuilder).image
+                    ),
+                  ), 
+                  title: Text(greatPlaces.itemByIndex(indexItemBuilder).title),
+                  onTap: () {},
+                )
             )
       ),
     );
