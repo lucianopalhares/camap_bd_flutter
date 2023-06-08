@@ -1,3 +1,4 @@
+import 'package:camap_bd_flutter/utils/location_util.dart';
 import 'package:flutter/src/widgets/framework.dart';
 import 'package:flutter/src/widgets/placeholder.dart';
 import 'package:flutter/material.dart';
@@ -16,8 +17,15 @@ class _LocationInputState extends State<LocationInput> {
   Future<void> _getCurrentUserLocation() async {
     Location location = new Location();
     final locData = await location.getLocation();
-    print(locData.latitude); 
-    print(locData.longitude);
+    
+    final staticMapImageUrl = LocationUtil.generateLocationPreviewImage(
+      latitude: locData.latitude, 
+      longitude: locData.longitude
+    );
+
+    setState(() {
+      _previewImageUrl = staticMapImageUrl;
+    });
   }
 
   @override

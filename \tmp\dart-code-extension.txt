@@ -428,3 +428,214 @@ NO_PROXY: undefined
 [11:50:27 AM] [FlutterRun] [Error] [Dart  (Moto G50 API 31)] Note: Recompile with -Xlint:deprecation for details.
 [11:50:38 AM] [General] [Info] Took 88ms to search for projects (5 levels)
 [11:50:38 AM] [General] [Info] Took 1ms to filter out excluded projects (0 exclusion rules)
+[12:12:46 PM] [General] [Info] Pubspec /var/www/html/me/flutter/curso/camap_bd_flutter/pubspec.yaml was modified
+[12:12:47 PM] [General] [Info] Took 51ms to search for projects (5 levels)
+[12:12:47 PM] [General] [Info] Took 1ms to filter out excluded projects (0 exclusion rules)
+[12:12:47 PM] [General] [Info] Version last used for Pub is 2.19.6 (2.19.0), current is 2.19.6 (2.19.0)
+[12:12:47 PM] [General] [Info] Found 1 folders requiring "pub get" or "pub upgrade":
+    /var/www/html/me/flutter/curso/camap_bd_flutter (get: true, upgrade: false, reason: pubspec.yaml was modified (Thu Jun 08 2023 12:12:46 GMT-0300 (Brasilia Standard Time)) more recently than pubspec.lock (Thu Jun 08 2023 11:49:29 GMT-0300 (Brasilia Standard Time)))
+[12:16:24 PM] [General] [Info] Returning cached results for project search
+[12:17:26 PM] [General] [Info] Pubspec /var/www/html/me/flutter/curso/camap_bd_flutter/pubspec.yaml was modified
+[12:17:27 PM] [General] [Info] Returning cached results for project search
+[12:17:27 PM] [General] [Info] Version last used for Pub is 2.19.6 (2.19.0), current is 2.19.6 (2.19.0)
+[12:17:27 PM] [General] [Info] Found 1 folders requiring "pub get" or "pub upgrade":
+    /var/www/html/me/flutter/curso/camap_bd_flutter (get: true, upgrade: false, reason: pubspec.yaml was modified (Thu Jun 08 2023 12:17:25 GMT-0300 (Brasilia Standard Time)) more recently than pubspec.lock (Thu Jun 08 2023 12:16:40 GMT-0300 (Brasilia Standard Time)))
+[12:22:59 PM] [General] [Info] Starting debug session...
+[12:22:59 PM] [General] [Info]     workspace: /var/www/html/me/flutter/curso/camap_bd_flutter
+[12:22:59 PM] [General] [Info]     program  : /var/www/html/me/flutter/curso/camap_bd_flutter/lib/main.dart
+[12:22:59 PM] [General] [Info] Setting cwd based on likely entry point: /var/www/html/me/flutter/curso/camap_bd_flutter
+[12:22:59 PM] [General] [Info] Using workspace as cwd: /var/www/html/me/flutter/curso/camap_bd_flutter
+[12:22:59 PM] [General] [Info] Detected launch project as Flutter
+[12:22:59 PM] [General] [Info] Using Flutter debug adapter for this session
+[12:22:59 PM] [General] [Info] Getting DevTools server address to pass to Flutter...
+[12:22:59 PM] [General] [Info] Checking for errors before launching
+[12:22:59 PM] [General] [Info] Debug session starting...
+    {
+        "name": "Dart  (Moto G50 API 31)",
+        "noDebug": false,
+        "request": "launch",
+        "type": "dart",
+        "groupId": 0,
+        "program": "/var/www/html/me/flutter/curso/camap_bd_flutter/lib/main.dart",
+        "dartCodeDebugSessionID": "session-804da",
+        "cwd": "/var/www/html/me/flutter/curso/camap_bd_flutter",
+        "deviceId": "emulator-5554",
+        "deviceName": "Moto G50 API 31 (android-x64)",
+        "toolEnv": {
+            "FLUTTER_HOST": "VSCode",
+            "PUB_ENVIRONMENT": "vscode.dart-code"
+        },
+        "sendLogsToClient": false,
+        "sendCustomProgressEvents": true,
+        "additionalProjectPaths": [
+            "/var/www/html/me/flutter/curso/camap_bd_flutter"
+        ],
+        "args": [],
+        "vmAdditionalArgs": [
+            "--no-sound-null-safety"
+        ],
+        "toolArgs": [
+            "--no-sound-null-safety",
+            "-d",
+            "emulator-5554",
+            "--devtools-server-address",
+            "http://127.0.0.1:9100/"
+        ],
+        "vmServicePort": 0,
+        "dartSdkPath": "/home/luciano/Android/flutter/bin/cache/dart-sdk",
+        "maxLogLineLength": 2000,
+        "debugSdkLibraries": false,
+        "debugExternalPackageLibraries": false,
+        "showDartDeveloperLogs": true,
+        "evaluateGettersInDebugViews": true,
+        "evaluateToStringInDebugViews": true,
+        "flutterSdkPath": "/home/luciano/Android/flutter",
+        "useInspectorNotificationsForWidgetErrors": true,
+        "showMemoryUsage": false,
+        "debuggerType": 2
+    }
+[12:22:59 PM] [General] [Info] Using flutter debugger for Flutter
+[12:22:59 PM] [General] [Info] SDK DAP setting is false, set by sdkDaps experiment
+[12:22:59 PM] [General] [Info] Running debugger via node with /home/luciano/.vscode/extensions/dart-code.dart-code-3.66.0/out/dist/debug.js    flutter
+[12:22:59 PM] [General] [Info] Did not find session e328a902-de51-4801-bbd4-4c9410f5c505 to handle dart.progressStart. There were 0 sessions:
+[12:22:59 PM] [General] [Info] Event will be queued and processed when the session start event fires
+[12:22:59 PM] [General] [Info] Processing delayed event dart.progressStart for session e328a902-de51-4801-bbd4-4c9410f5c505
+[12:23:20 PM] [FlutterRun] [Error] [Dart  (Moto G50 API 31)] Note: /home/luciano/.pub-cache/hosted/pub.dev/location-4.4.0/android/src/main/java/com/lyokone/location/FlutterLocation.java uses or overrides a deprecated API.
+[12:23:20 PM] [FlutterRun] [Error] [Dart  (Moto G50 API 31)] Note: Recompile with -Xlint:deprecation for details.
+[12:23:29 PM] [General] [Info] Took 49ms to search for projects (5 levels)
+[12:23:29 PM] [General] [Info] Took 5ms to filter out excluded projects (0 exclusion rules)
+[12:52:57 PM] [General] [Info] Took 60ms to search for projects (5 levels)
+[12:52:57 PM] [General] [Info] Took 3ms to filter out excluded projects (0 exclusion rules)
+[12:56:01 PM] [FlutterRun] [Error] [Dart  (Moto G50 API 31)] lib/widgets/location_input.dart:21:44: Error: Member not found: 'LocationUtil.generateLocationPreviewImage'.
+[12:56:01 PM] [FlutterRun] [Error] [Dart  (Moto G50 API 31)]     final staticMapImageUrl = LocationUtil.generateLocationPreviewImage(
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[12:56:13 PM] [FlutterRun] [Error] [Dart  (Moto G50 API 31)] lib/widgets/location_input.dart:21:44: Error: Member not found: 'LocationUtil.generateLocationPreviewImage'.
+[12:56:13 PM] [FlutterRun] [Error] [Dart  (Moto G50 API 31)]     final staticMapImageUrl = LocationUtil.generateLocationPreviewImage(
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[12:56:23 PM] [FlutterRun] [Error] [Dart  (Moto G50 API 31)] lib/widgets/location_input.dart:21:44: Error: Member not found: 'LocationUtil.generateLocationPreviewImage'.
+[12:56:23 PM] [FlutterRun] [Error] [Dart  (Moto G50 API 31)]     final staticMapImageUrl = LocationUtil.generateLocationPreviewImage(
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[12:57:15 PM] [FlutterRun] [Error] [Dart  (Moto G50 API 31)] lib/widgets/location_input.dart:21:44: Error: Member not found: 'LocationUtil.generateLocationPreviewImage'.
+[12:57:15 PM] [FlutterRun] [Error] [Dart  (Moto G50 API 31)]     final staticMapImageUrl = LocationUtil.generateLocationPreviewImage(
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1:01:44 PM] [General] [Info] Took 47ms to search for projects (5 levels)
+[1:01:44 PM] [General] [Info] Took 3ms to filter out excluded projects (0 exclusion rules)
+[1:02:40 PM] [General] [Info] Returning cached results for project search
+[1:04:01 PM] [General] [Info] Returning cached results for project search
+[1:06:18 PM] [FlutterRun] [Error] [Dart  (Moto G50 API 31)] lib/widgets/location_input.dart:21:44: Error: Member not found: 'LocationUtil.generateLocationPreviewImage'.
+[1:06:18 PM] [FlutterRun] [Error] [Dart  (Moto G50 API 31)]     final staticMapImageUrl = LocationUtil.generateLocationPreviewImage(
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1:06:33 PM] [FlutterRun] [Error] [Dart  (Moto G50 API 31)] lib/widgets/location_input.dart:21:44: Error: Member not found: 'LocationUtil.generateLocationPreviewImage'.
+    final staticMapImageUrl = LocationUtil.generateLocationPreviewImage(
+[1:06:33 PM] [FlutterRun] [Error] [Dart  (Moto G50 API 31)]                                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1:07:01 PM] [General] [Info] Took 47ms to search for projects (5 levels)
+[1:07:01 PM] [General] [Info] Took 3ms to filter out excluded projects (0 exclusion rules)
+[1:08:19 PM] [General] [Info] Returning cached results for project search
+[1:09:55 PM] [General] [Info] Returning cached results for project search
+[1:12:53 PM] [General] [Info] Took 37ms to search for projects (5 levels)
+[1:12:53 PM] [General] [Info] Took 2ms to filter out excluded projects (0 exclusion rules)
+[1:13:30 PM] [General] [Info] Returning cached results for project search
+[1:16:30 PM] [General] [Info] Returning cached results for project search
+[1:19:24 PM] [FlutterRun] [Error] [Dart  (Moto G50 API 31)] lib/widgets/location_input.dart:29:26: Error: This expression has type 'void' and can't be used.
+      _previewImageUrl = staticMapImageUrl;
+[1:19:24 PM] [FlutterRun] [Error] [Dart  (Moto G50 API 31)]                          ^
+[1:19:39 PM] [FlutterRun] [Error] [Dart  (Moto G50 API 31)] lib/widgets/location_input.dart:29:26: Error: This expression has type 'void' and can't be used.
+[1:19:39 PM] [FlutterRun] [Error] [Dart  (Moto G50 API 31)]       _previewImageUrl = staticMapImageUrl;
+                         ^
+[1:20:11 PM] [FlutterRun] [Error] [Dart  (Moto G50 API 31)] lib/widgets/location_input.dart:23:44: Error: The method 'generateLocationPreviewImage' isn't defined for the class 'LocationUtil'.
+ - 'LocationUtil' is from 'package:camap_bd_flutter/utils/location_util.dart' ('lib/utils/location_util.dart').
+[1:20:11 PM] [FlutterRun] [Error] [Dart  (Moto G50 API 31)] Try correcting the name to the name of an existing method, or defining a method named 'generateLocationPreviewImage'.
+    final staticMapImageUrl = locationUtil.generateLocationPreviewImage(
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1:20:26 PM] [General] [Info] Took 42ms to search for projects (5 levels)
+[1:20:26 PM] [General] [Info] Took 3ms to filter out excluded projects (0 exclusion rules)
+[1:21:10 PM] [General] [Info] Returning cached results for project search
+[1:21:48 PM] [General] [Info] Returning cached results for project search
+[1:22:09 PM] [General] [Info] Returning cached results for project search
+[1:23:32 PM] [General] [Info] Returning cached results for project search
+[1:23:59 PM] [General] [Info] Returning cached results for project search
+[1:24:48 PM] [General] [Info] Starting debug session...
+[1:24:48 PM] [General] [Info]     workspace: /var/www/html/me/flutter/curso/camap_bd_flutter
+[1:24:48 PM] [General] [Info]     program  : /var/www/html/me/flutter/curso/camap_bd_flutter/lib/main.dart
+[1:24:48 PM] [General] [Info] Setting cwd based on likely entry point: /var/www/html/me/flutter/curso/camap_bd_flutter
+[1:24:48 PM] [General] [Info] Using workspace as cwd: /var/www/html/me/flutter/curso/camap_bd_flutter
+[1:24:48 PM] [General] [Info] Detected launch project as Flutter
+[1:24:48 PM] [General] [Info] Using Flutter debug adapter for this session
+[1:24:48 PM] [General] [Info] Getting DevTools server address to pass to Flutter...
+[1:24:48 PM] [General] [Info] Checking for errors before launching
+[1:24:48 PM] [General] [Info] Debug session starting...
+    {
+        "name": "Dart  (Moto G50 API 31)",
+        "noDebug": false,
+        "request": "launch",
+        "type": "dart",
+        "groupId": 0,
+        "program": "/var/www/html/me/flutter/curso/camap_bd_flutter/lib/main.dart",
+        "dartCodeDebugSessionID": "session-c521e",
+        "cwd": "/var/www/html/me/flutter/curso/camap_bd_flutter",
+        "deviceId": "emulator-5554",
+        "deviceName": "Moto G50 API 31 (android-x64)",
+        "toolEnv": {
+            "FLUTTER_HOST": "VSCode",
+            "PUB_ENVIRONMENT": "vscode.dart-code"
+        },
+        "sendLogsToClient": false,
+        "sendCustomProgressEvents": true,
+        "additionalProjectPaths": [
+            "/var/www/html/me/flutter/curso/camap_bd_flutter"
+        ],
+        "args": [],
+        "vmAdditionalArgs": [
+            "--no-sound-null-safety"
+        ],
+        "toolArgs": [
+            "--no-sound-null-safety",
+            "-d",
+            "emulator-5554",
+            "--devtools-server-address",
+            "http://127.0.0.1:9100/"
+        ],
+        "vmServicePort": 0,
+        "dartSdkPath": "/home/luciano/Android/flutter/bin/cache/dart-sdk",
+        "maxLogLineLength": 2000,
+        "debugSdkLibraries": false,
+        "debugExternalPackageLibraries": false,
+        "showDartDeveloperLogs": true,
+        "evaluateGettersInDebugViews": true,
+        "evaluateToStringInDebugViews": true,
+        "flutterSdkPath": "/home/luciano/Android/flutter",
+        "useInspectorNotificationsForWidgetErrors": true,
+        "showMemoryUsage": false,
+        "debuggerType": 2
+    }
+[1:24:48 PM] [General] [Info] Using flutter debugger for Flutter
+[1:24:48 PM] [General] [Info] SDK DAP setting is false, set by sdkDaps experiment
+[1:24:48 PM] [General] [Info] Running debugger via node with /home/luciano/.vscode/extensions/dart-code.dart-code-3.66.0/out/dist/debug.js    flutter
+[1:24:48 PM] [General] [Info] Did not find session dd730a4c-c274-43f5-a5fc-7fa736617e32 to handle dart.progressStart. There were 0 sessions:
+[1:24:48 PM] [General] [Info] Event will be queued and processed when the session start event fires
+[1:24:48 PM] [General] [Info] Processing delayed event dart.progressStart for session dd730a4c-c274-43f5-a5fc-7fa736617e32
+[1:25:01 PM] [General] [Info] Returning cached results for project search
+[2:34:50 PM] [FlutterRun] [Error] [Dart  (Moto G50 API 31)] lib/utils/location_util.dart:9:11: Error: Undefined name 'dotenv'.
+[2:34:50 PM] [FlutterRun] [Error] [Dart  (Moto G50 API 31)]     await dotenv.load(fileName: ".env");
+          ^^^^^^
+lib/utils/location_util.dart:12:28: Error: Undefined name 'dotenv'.
+    print('dotenv.env2 = ${dotenv.env}');
+                           ^^^^^^
+[2:35:04 PM] [FlutterRun] [Error] [Dart  (Moto G50 API 31)] lib/utils/location_util.dart:9:11: Error: Undefined name 'dotenv'.
+[2:35:04 PM] [FlutterRun] [Error] [Dart  (Moto G50 API 31)]     await dotenv.load(fileName: ".env");
+          ^^^^^^
+lib/utils/location_util.dart:12:28: Error: Undefined name 'dotenv'.
+    print('dotenv.env2 = ${dotenv.env}');
+                           ^^^^^^
+[2:36:49 PM] [General] [Info] Took 47ms to search for projects (5 levels)
+[2:36:49 PM] [General] [Info] Took 1ms to filter out excluded projects (0 exclusion rules)
+[2:37:29 PM] [General] [Info] Returning cached results for project search
+[2:37:59 PM] [General] [Info] Returning cached results for project search
+[2:38:57 PM] [General] [Info] Returning cached results for project search
+[2:39:22 PM] [General] [Info] Returning cached results for project search
+[3:05:38 PM] [General] [Info] Took 39ms to search for projects (5 levels)
+[3:05:38 PM] [General] [Info] Took 1ms to filter out excluded projects (0 exclusion rules)
+[3:06:04 PM] [General] [Info] Returning cached results for project search
+[3:06:49 PM] [General] [Info] Returning cached results for project search
+[3:12:32 PM] [General] [Info] Took 47ms to search for projects (5 levels)
+[3:12:32 PM] [General] [Info] Took 4ms to filter out excluded projects (0 exclusion rules)
