@@ -9,6 +9,21 @@ import '../models/place.dart';
 class GreatPlaces with ChangeNotifier {
   List<Place> _items = []; 
 
+  Future<void> loadPlaces() async {
+    final dataList = await DbUtil.getData('places'); 
+    //map para transformar cada um dos items do banco do tipo Place
+    _items = dataList.map(
+      (item) => Place(
+        id: item['id'], 
+        title: item['title'], 
+        image: File(item['image']), 
+        location: PlaceLocation(latitude: 0, longitude: 0)
+      ),
+    ).toList();
+
+    notifyListeners();
+  }
+
   List<Place> get items {
     return [..._items];
   }

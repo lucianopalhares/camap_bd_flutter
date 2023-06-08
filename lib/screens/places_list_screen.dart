@@ -22,25 +22,32 @@ class PlacesListScreen extends StatelessWidget {
           )
         ],
       ),
-      body: Consumer<GreatPlaces>(
-        child: Center(child: Text('Nenhum local cadastrado!')), 
-        builder: (contextBuilder, greatPlaces, childBuilder) => 
-          greatPlaces.itemsCount == 0 
-          ? Text('Não possui nenhum local!') 
-          : ListView.builder(
-              itemCount: greatPlaces.itemsCount,
-              itemBuilder: 
-                (contextItemBuilder, indexItemBuilder) => 
-                ListTile(
-                  leading: CircleAvatar(
-                    backgroundImage: FileImage(
-                      greatPlaces.itemByIndex(indexItemBuilder).image
-                    ),
-                  ), 
-                  title: Text(greatPlaces.itemByIndex(indexItemBuilder).title),
-                  onTap: () {},
-                )
-            )
+      body: FutureBuilder(
+        future: 
+          Provider.of<GreatPlaces>(context, listen: false).loadPlaces(), 
+        builder: (contextFutureBuilder, snapshot) => 
+          snapshot.connectionState == ConnectionState.waiting
+          ? Center(child: CircularProgressIndicator(),)
+          : Consumer<GreatPlaces>(
+          child: Center(child: Text('Nenhum local cadastrado!')), 
+          builder: (contextBuilder, greatPlaces, childBuilder) => 
+            greatPlaces.itemsCount == 0 
+            ? Text('Não possui nenhum local!') 
+            : ListView.builder(
+                itemCount: greatPlaces.itemsCount,
+                itemBuilder: 
+                  (contextItemBuilder, indexItemBuilder) => 
+                  ListTile(
+                    leading: CircleAvatar(
+                      backgroundImage: FileImage(
+                        greatPlaces.itemByIndex(indexItemBuilder).image
+                      ),
+                    ), 
+                    title: Text(greatPlaces.itemByIndex(indexItemBuilder).title),
+                    onTap: () {},
+                  )
+              )
+            ),
       ),
     );
   }
