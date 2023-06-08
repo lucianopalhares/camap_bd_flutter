@@ -6,6 +6,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter/src/widgets/framework.dart';
 import 'package:flutter/src/widgets/placeholder.dart';
 import 'package:provider/provider.dart';
+
+import '../widgets/location_input.dart';
 class PlaceFormScreen extends StatefulWidget {
   const PlaceFormScreen({super.key});
 
@@ -55,7 +57,10 @@ class _PlaceFormScreenState extends State<PlaceFormScreen> {
                       labelText: 'Titulo'
                     ),
                   ), 
-                  ImageInput(this._selectImage)
+                  SizedBox(height: 10,),
+                  ImageInput(this._selectImage), 
+                  SizedBox(height: 10,),
+                  LocationInput(),
                 ]
               ),
             ),

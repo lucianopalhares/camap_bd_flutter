@@ -349,3 +349,12 @@ NO_PROXY: undefined
 [10:50:22 AM] [General] [Info] Processing delayed event dart.progressStart for session 4ba40101-e1ae-4e98-94d4-4ac64efe9e51
 [10:51:30 AM] [General] [Info] Took 123ms to search for projects (5 levels)
 [10:51:30 AM] [General] [Info] Took 7ms to filter out excluded projects (0 exclusion rules)
+[11:09:58 AM] [General] [Info] Pubspec /var/www/html/me/flutter/curso/camap_bd_flutter/pubspec.yaml was modified
+[11:09:59 AM] [General] [Info] Took 42ms to search for projects (5 levels)
+[11:09:59 AM] [General] [Info] Took 1ms to filter out excluded projects (0 exclusion rules)
+[11:09:59 AM] [General] [Info] Version last used for Pub is 2.19.6 (2.19.0), current is 2.19.6 (2.19.0)
+[11:09:59 AM] [General] [Info] Found 1 folders requiring "pub get" or "pub upgrade":
+    /var/www/html/me/flutter/curso/camap_bd_flutter (get: true, upgrade: false, reason: pubspec.yaml was modified (Thu Jun 08 2023 11:09:58 GMT-0300 (Brasilia Standard Time)) more recently than pubspec.lock (Thu Jun 08 2023 10:20:42 GMT-0300 (Brasilia Standard Time)))
+[11:33:41 AM] [General] [Info] Took 45ms to search for projects (5 levels)
+[11:33:41 AM] [General] [Info] Took 4ms to filter out excluded projects (0 exclusion rules)
+[11:34:14 AM] [General] [Info] Returning cached results for project search
