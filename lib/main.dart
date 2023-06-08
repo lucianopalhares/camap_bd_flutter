@@ -3,11 +3,9 @@ import 'package:camap_bd_flutter/screens/place_form_screen.dart';
 import 'package:camap_bd_flutter/screens/places_list_screen.dart';
 import 'package:camap_bd_flutter/utils/app_routes.dart';
 import 'package:flutter/material.dart';
-import 'package:provider/provider.dart';
-import 'package:flutter_dotenv/flutter_dotenv.dart'; 
+import 'package:provider/provider.dart'; 
 
-Future main() async {
-  await dotenv.load(fileName: ".env");
+void main() {
   runApp(const MyApp());
 }
 
