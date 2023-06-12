@@ -1,3 +1,5 @@
+import 'package:camap_bd_flutter/models/place.dart';
+import 'package:camap_bd_flutter/screens/map_screen.dart';
 import 'package:camap_bd_flutter/utils/location_util.dart';
 import 'package:flutter/src/widgets/framework.dart';
 import 'package:flutter/src/widgets/placeholder.dart';
@@ -26,6 +28,22 @@ class _LocationInputState extends State<LocationInput> {
     setState(() {
       _previewImageUrl = staticMapImageUrl;
     });
+  }
+
+  Future<void> _selectOnMap() async {
+    final selectedLocation = await Navigator.of(context).push(
+      MaterialPageRoute(
+        builder: (ctx) => MapScreen(
+          initialLocation: PlaceLocation(
+            latitude: 53.2734, 
+            longitude: -7.77832031 
+          ) 
+        ), 
+        fullscreenDialog: true
+      )
+    );
+
+    if (selectedLocation == null) return;
   }
 
   @override
@@ -63,7 +81,7 @@ class _LocationInputState extends State<LocationInput> {
                 
             ),
             TextButton.icon(
-              onPressed: () {}, 
+              onPressed: _selectOnMap, 
               icon: Icon(Icons.map), 
               label: Text('Selecione no Mapa'), 
               style: 
