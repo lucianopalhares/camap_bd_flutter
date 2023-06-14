@@ -516,3 +516,5 @@ exit code: 1
 [9:17:21 AM] [General] [Info] Event will be queued and processed when the session start event fires
 [9:17:21 AM] [General] [Info] Processing delayed event dart.progressStart for session 489910cf-0a3a-4b73-a504-9cb1988fac98
 [9:17:34 AM] [General] [Info] Returning cached results for project search
+[9:25:03 AM] [General] [Info] Took 65ms to search for projects (5 levels)
+[9:25:03 AM] [General] [Info] Took 6ms to filter out excluded projects (0 exclusion rules)
