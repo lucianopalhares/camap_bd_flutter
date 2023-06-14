@@ -311,3 +311,6 @@ See http://dart.dev/go/non-promo-property
 [8:55:25 AM] [General] [Info] Took 5ms to filter out excluded projects (0 exclusion rules)
 [9:01:28 AM] [General] [Info] Took 100ms to search for projects (5 levels)
 [9:01:28 AM] [General] [Info] Took 4ms to filter out excluded projects (0 exclusion rules)
+[9:05:25 AM] [General] [Info] Returning cached results for project search
+[9:06:31 AM] [General] [Info] Took 46ms to search for projects (5 levels)
+[9:06:31 AM] [General] [Info] Took 2ms to filter out excluded projects (0 exclusion rules)

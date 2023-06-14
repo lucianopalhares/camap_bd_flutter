@@ -41,8 +41,8 @@ class _LocationInputState extends State<LocationInput> {
       MaterialPageRoute(
         builder: (ctx) => MapScreen(
           initialLocation: PlaceLocation(
-            latitude: 53.2734, 
-            longitude: -7.77832031 
+            latitude: 0, 
+            longitude: 0 
           ) 
         ), 
         fullscreenDialog: true
@@ -51,7 +51,14 @@ class _LocationInputState extends State<LocationInput> {
 
     if (selectedPosition == null) return;
 
-    print(selectedPosition.latitude);
+    final staticMapImageUrl = LocationUtil.generateLocationPreviewImage(
+      latitude: selectedPosition.latitude, 
+      longitude: selectedPosition.longitude
+    );
+
+    setState(() {
+      _previewImageUrl = staticMapImageUrl;
+    });
 
     widget.onSelectPosition(selectedPosition);
   }
