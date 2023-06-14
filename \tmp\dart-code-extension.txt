@@ -309,3 +309,5 @@ See http://dart.dev/go/non-promo-property
 [8:46:28 AM] [FlutterRun] [Error] [Dart  (Moto G50 API 31)]               ^
 [8:55:25 AM] [General] [Info] Took 56ms to search for projects (5 levels)
 [8:55:25 AM] [General] [Info] Took 5ms to filter out excluded projects (0 exclusion rules)
+[9:01:28 AM] [General] [Info] Took 100ms to search for projects (5 levels)
+[9:01:28 AM] [General] [Info] Took 4ms to filter out excluded projects (0 exclusion rules)

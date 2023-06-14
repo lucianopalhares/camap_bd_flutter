@@ -22,19 +22,26 @@ class _PlaceFormScreenState extends State<PlaceFormScreen> {
   LatLng _pickedPosition = LatLng(0,0);
 
   void _selectImage(File pickedImage) {
-    _pickedImage = pickedImage;
+    setState(() {
+       _pickedImage = pickedImage;
+    });   
   }
 
   void _selectPosition(LatLng position) {
-    _pickedPosition = position;
+    setState(() {
+      _pickedPosition = position;
+    });    
+  }
+
+  bool _isValidForm() {
+    return 
+      _titleController.text.isNotEmpty 
+      && _pickedImage != null 
+      && _pickedPosition != null;
   }
 
   void _submitForm() {
-    if (
-      _titleController.text.isEmpty 
-      || _pickedImage == null
-      || _pickedPosition == null  
-    ) {
+    if (!_isValidForm()) {
       return;
     }
 
@@ -75,7 +82,7 @@ class _PlaceFormScreenState extends State<PlaceFormScreen> {
             ),
           ),
           TextButton.icon(
-            onPressed: _submitForm, 
+            onPressed: _isValidForm() ? _submitForm : null, 
             icon: Icon(Icons.add), 
             label: Text('Adicionar'), 
             style: TextButton.styleFrom(
@@ -84,6 +91,7 @@ class _PlaceFormScreenState extends State<PlaceFormScreen> {
               tapTargetSize: MaterialTapTargetSize.shrinkWrap, 
               
             ),
+
           ), 
         ],
       ),
