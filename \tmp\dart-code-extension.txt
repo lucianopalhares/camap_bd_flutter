@@ -284,3 +284,28 @@ See http://dart.dev/go/non-promo-property
 [8:16:59 AM] [General] [Info] Returning cached results for project search
 [8:21:23 AM] [General] [Info] Took 56ms to search for projects (5 levels)
 [8:21:23 AM] [General] [Info] Took 4ms to filter out excluded projects (0 exclusion rules)
+[8:25:10 AM] [General] [Info] Pubspec /var/www/html/me/flutter/curso/camap_bd_flutter/pubspec.yaml was modified
+[8:25:11 AM] [General] [Info] Returning cached results for project search
+[8:25:11 AM] [General] [Info] Version last used for Pub is 2.19.6 (2.19.0), current is 2.19.6 (2.19.0)
+[8:25:11 AM] [General] [Info] Found 1 folders requiring "pub get" or "pub upgrade":
+    /var/www/html/me/flutter/curso/camap_bd_flutter (get: true, upgrade: false, reason: pubspec.yaml was modified (Wed Jun 14 2023 08:25:10 GMT-0300 (Brasilia Standard Time)) more recently than pubspec.lock (Mon Jun 12 2023 09:11:50 GMT-0300 (Brasilia Standard Time)))
+[8:26:36 AM] [FlutterRun] [Error] [Dart  (Moto G50 API 31)] lib/screens/place_form_screen.dart:35:15: Error: Too few positional arguments: 3 required, 2 given.
+    ).addPlace(_titleController.text, _pickedImage);
+              ^
+[8:43:10 AM] [FlutterRun] [Error] [Dart  (Moto G50 API 31)] lib/screens/place_form_screen.dart:35:15: Error: Too few positional arguments: 3 required, 2 given.
+[8:43:10 AM] [FlutterRun] [Error] [Dart  (Moto G50 API 31)]     ).addPlace(_titleController.text, _pickedImage);
+              ^
+[8:43:42 AM] [FlutterRun] [Error] [Dart  (Moto G50 API 31)] lib/screens/place_form_screen.dart:35:15: Error: Too few positional arguments: 3 required, 2 given.
+    ).addPlace(_titleController.text, _pickedImage);
+[8:43:42 AM] [FlutterRun] [Error] [Dart  (Moto G50 API 31)]               ^
+[8:45:52 AM] [FlutterRun] [Error] [Dart  (Moto G50 API 31)] lib/screens/place_form_screen.dart:35:15: Error: Too few positional arguments: 3 required, 2 given.
+[8:45:52 AM] [FlutterRun] [Error] [Dart  (Moto G50 API 31)]     ).addPlace(_titleController.text, _pickedImage);
+              ^
+[8:45:59 AM] [FlutterRun] [Error] [Dart  (Moto G50 API 31)] lib/screens/place_form_screen.dart:35:15: Error: Too few positional arguments: 3 required, 2 given.
+    ).addPlace(_titleController.text, _pickedImage);
+              ^
+[8:46:28 AM] [FlutterRun] [Error] [Dart  (Moto G50 API 31)] lib/screens/place_form_screen.dart:35:15: Error: Too few positional arguments: 3 required, 2 given.
+    ).addPlace(_titleController.text, _pickedImage);
+[8:46:28 AM] [FlutterRun] [Error] [Dart  (Moto G50 API 31)]               ^
+[8:55:25 AM] [General] [Info] Took 56ms to search for projects (5 levels)
+[8:55:25 AM] [General] [Info] Took 5ms to filter out excluded projects (0 exclusion rules)

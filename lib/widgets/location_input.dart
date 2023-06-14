@@ -8,7 +8,12 @@ import 'package:location/location.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
 
 class LocationInput extends StatefulWidget {
-  const LocationInput({super.key});
+
+  final Function onSelectPosition;
+
+  const LocationInput(
+    this.onSelectPosition
+  );
 
   @override
   State<LocationInput> createState() => _LocationInputState();
@@ -47,6 +52,8 @@ class _LocationInputState extends State<LocationInput> {
     if (selectedPosition == null) return;
 
     print(selectedPosition.latitude);
+
+    widget.onSelectPosition(selectedPosition);
   }
 
   @override
