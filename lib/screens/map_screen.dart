@@ -8,10 +8,11 @@ import '../models/place.dart';
 
 class MapScreen extends StatefulWidget {
   final PlaceLocation initialLocation;
-
+  final bool isReadOnly;
 
   MapScreen({
-    required this.initialLocation   
+    required this.initialLocation,
+    this.isReadOnly = false   
   });
 
   @override
@@ -19,6 +20,14 @@ class MapScreen extends StatefulWidget {
 }
 
 class _MapScreenState extends State<MapScreen> {
+  late LatLng _pickedPosition = LatLng(0, 0);
+
+  void _selectPosition(LatLng position) {
+    setState(() {
+      _pickedPosition = position;
+    });
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -31,7 +40,18 @@ class _MapScreenState extends State<MapScreen> {
             widget.initialLocation.latitude, 
             widget.initialLocation.longitude
           ), 
-        ) ,
+        ),
+        onTap: widget.isReadOnly ? null : _selectPosition,
+        markers: _pickedPosition == null 
+          ? <Marker>[].toSet() 
+          : 
+          [
+            Marker(
+              markerId: MarkerId('p1'),
+              position: _pickedPosition 
+            )
+          ].toSet()  
+          
       )
     );
   }
