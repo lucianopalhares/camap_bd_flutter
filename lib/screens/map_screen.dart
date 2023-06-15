@@ -28,6 +28,28 @@ class _MapScreenState extends State<MapScreen> {
     });
   }
 
+  Set<Marker> setMarker() {
+
+    final position;
+
+    if (widget.initialLocation.latitude != 0) {      
+      position = widget.initialLocation.toLatLng();
+    } else {
+      position = _pickedPosition;
+    }
+
+    if (position == null && !widget.isReadOnly) {
+      return <Marker>[].toSet();
+    } else {
+      return [
+        Marker(
+          markerId: MarkerId('p1'),
+          position: position
+        )
+      ].toSet();  
+    }
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -52,15 +74,7 @@ class _MapScreenState extends State<MapScreen> {
           ), 
         ),
         onTap: widget.isReadOnly ? null : _selectPosition,
-        markers: _pickedPosition == null 
-          ? <Marker>[].toSet() 
-          : 
-          [
-            Marker(
-              markerId: MarkerId('p1'),
-              position: _pickedPosition 
-            )
-          ].toSet()  
+        markers: setMarker()
           
       )
     );
