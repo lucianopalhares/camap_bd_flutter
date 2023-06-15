@@ -256,3 +256,5 @@ NO_PROXY: undefined
 [8:36:54 AM] [General] [Info] Event will be queued and processed when the session start event fires
 [8:36:54 AM] [General] [Info] Processing delayed event dart.progressStart for session 7ffb60f8-02f0-4c03-a08a-754d5a31239f
 [8:37:21 AM] [General] [Info] Returning cached results for project search
+[9:09:53 AM] [General] [Info] Took 70ms to search for projects (5 levels)
+[9:09:53 AM] [General] [Info] Took 3ms to filter out excluded projects (0 exclusion rules)

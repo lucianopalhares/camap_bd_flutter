@@ -1,3 +1,4 @@
+import 'package:camap_bd_flutter/screens/map_screen.dart';
 import 'package:flutter/src/widgets/framework.dart';
 import 'package:flutter/src/widgets/placeholder.dart';
 import 'package:flutter/material.dart';
@@ -38,7 +39,17 @@ class PlaceDetailScreen extends StatelessWidget {
           ), 
           SizedBox(height: 10,), 
           TextButton.icon(
-            onPressed: () => {}, 
+            onPressed: () => {
+              Navigator.of(context).push(
+                MaterialPageRoute(
+                  fullscreenDialog: true,
+                  builder: (ctx) => MapScreen(
+                    isReadOnly: true, 
+                    initialLocation: place.location,
+                  )
+                )
+              )
+            }, 
             icon: Icon(Icons.map), 
             label: Text('Ver no Mapa'), 
             style: ButtonStyle(
