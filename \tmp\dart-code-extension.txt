@@ -13,133 +13,133 @@ NO_PROXY: undefined
 Logging Categories:
     General
 
-Wed Jun 14 2023 [07:45:29 GMT-0300 (Brasilia Standard Time)] Log file started
-[7:45:29 AM] [General] [Info] Searching for SDKs...
-[7:45:29 AM] [General] [Info] Environment PATH:
-[7:45:29 AM] [General] [Info]     /home/luciano/Android/flutter/bin
-[7:45:29 AM] [General] [Info]     /home/luciano/ANDROID
-[7:45:29 AM] [General] [Info]     /home/luciano/Android/platform-tools
-[7:45:29 AM] [General] [Info]     /home/luciano/Android/cmdline-tools/tools/bin
-[7:45:29 AM] [General] [Info]     /home/luciano/Android/cmdline-tools/tools
-[7:45:29 AM] [General] [Info]     /home/linuxbrew/.linuxbrew/bin
-[7:45:29 AM] [General] [Info]     /home/linuxbrew/.linuxbrew/sbin
-[7:45:29 AM] [General] [Info]     /home/luciano/.nvm/versions/node/v12.22.7/bin
-[7:45:29 AM] [General] [Info]     /usr/local/sbin
-[7:45:29 AM] [General] [Info]     /usr/local/bin
-[7:45:29 AM] [General] [Info]     /usr/sbin
-[7:45:29 AM] [General] [Info]     /usr/bin
-[7:45:29 AM] [General] [Info]     /sbin
-[7:45:29 AM] [General] [Info]     /bin
-[7:45:29 AM] [General] [Info]     /usr/games
-[7:45:29 AM] [General] [Info]     /usr/local/games
-[7:45:29 AM] [General] [Info]     /snap/bin
-[7:45:29 AM] [General] [Info]     /snap/bin
-[7:45:30 AM] [General] [Info] Took 157ms to search for projects (5 levels)
-[7:45:30 AM] [General] [Info] Took 4ms to filter out excluded projects (0 exclusion rules)
-[7:45:30 AM] [General] [Info] Found Flutter project at /var/www/html/me/flutter/curso/camap_bd_flutter:
+Thu Jun 15 2023 [08:36:11 GMT-0300 (Brasilia Standard Time)] Log file started
+[8:36:11 AM] [General] [Info] Searching for SDKs...
+[8:36:11 AM] [General] [Info] Environment PATH:
+[8:36:11 AM] [General] [Info]     /home/luciano/Android/flutter/bin
+[8:36:11 AM] [General] [Info]     /home/luciano/ANDROID
+[8:36:11 AM] [General] [Info]     /home/luciano/Android/platform-tools
+[8:36:11 AM] [General] [Info]     /home/luciano/Android/cmdline-tools/tools/bin
+[8:36:11 AM] [General] [Info]     /home/luciano/Android/cmdline-tools/tools
+[8:36:11 AM] [General] [Info]     /home/linuxbrew/.linuxbrew/bin
+[8:36:11 AM] [General] [Info]     /home/linuxbrew/.linuxbrew/sbin
+[8:36:11 AM] [General] [Info]     /home/luciano/.nvm/versions/node/v12.22.7/bin
+[8:36:11 AM] [General] [Info]     /usr/local/sbin
+[8:36:11 AM] [General] [Info]     /usr/local/bin
+[8:36:11 AM] [General] [Info]     /usr/sbin
+[8:36:11 AM] [General] [Info]     /usr/bin
+[8:36:11 AM] [General] [Info]     /sbin
+[8:36:11 AM] [General] [Info]     /bin
+[8:36:11 AM] [General] [Info]     /usr/games
+[8:36:11 AM] [General] [Info]     /usr/local/games
+[8:36:11 AM] [General] [Info]     /snap/bin
+[8:36:11 AM] [General] [Info]     /snap/bin
+[8:36:11 AM] [General] [Info] Took 142ms to search for projects (5 levels)
+[8:36:11 AM] [General] [Info] Took 3ms to filter out excluded projects (0 exclusion rules)
+[8:36:11 AM] [General] [Info] Found Flutter project at /var/www/html/me/flutter/curso/camap_bd_flutter:
 			Mobile? true
 			Web? false
 			Create Trigger? false
 			Flutter Repo? false
-[7:45:30 AM] [General] [Info] Searching for flutter
-[7:45:30 AM] [General] [Info]     Looking for flutter in:
-[7:45:30 AM] [General] [Info]         /var/www/html/me/flutter/curso/camap_bd_flutter
-[7:45:30 AM] [General] [Info]         /var/www/html/me/flutter/curso/camap_bd_flutter/bin
-[7:45:30 AM] [General] [Info]         /home/luciano/Android/flutter/bin/
-[7:45:30 AM] [General] [Info]         /var/www/html/me/flutter/curso/camap_bd_flutter/.flutter
-[7:45:30 AM] [General] [Info]         /var/www/html/me/flutter/curso/camap_bd_flutter/.flutter/bin
-[7:45:30 AM] [General] [Info]         /var/www/html/me/flutter/curso/camap_bd_flutter/vendor/flutter
-[7:45:30 AM] [General] [Info]         /var/www/html/me/flutter/curso/camap_bd_flutter/vendor/flutter/bin
-[7:45:30 AM] [General] [Info]         /home/luciano/snap/flutter/common/flutter
-[7:45:30 AM] [General] [Info]         /home/luciano/snap/flutter/common/flutter/bin
-[7:45:30 AM] [General] [Info]         /home/luciano/flutter-sdk
-[7:45:30 AM] [General] [Info]         /home/luciano/flutter-sdk/bin
-[7:45:30 AM] [General] [Info]         /google/flutter
-[7:45:30 AM] [General] [Info]         /google/flutter/bin
-[7:45:30 AM] [General] [Info]         /home/luciano/Android/flutter/bin
-[7:45:30 AM] [General] [Info]         /home/luciano/ANDROID
-[7:45:30 AM] [General] [Info]         /home/luciano/ANDROID/bin
-[7:45:30 AM] [General] [Info]         /home/luciano/Android/platform-tools
-[7:45:30 AM] [General] [Info]         /home/luciano/Android/platform-tools/bin
-[7:45:30 AM] [General] [Info]         /home/luciano/Android/cmdline-tools/tools/bin
-[7:45:30 AM] [General] [Info]         /home/luciano/Android/cmdline-tools/tools
-[7:45:30 AM] [General] [Info]         /home/luciano/Android/cmdline-tools/tools/bin
-[7:45:30 AM] [General] [Info]         /home/linuxbrew/.linuxbrew/bin
-[7:45:30 AM] [General] [Info]         /home/linuxbrew/.linuxbrew/sbin
-[7:45:30 AM] [General] [Info]         /home/luciano/.nvm/versions/node/v12.22.7/bin
-[7:45:30 AM] [General] [Info]         /usr/local/sbin
-[7:45:30 AM] [General] [Info]         /usr/local/bin
-[7:45:30 AM] [General] [Info]         /usr/sbin
-[7:45:30 AM] [General] [Info]         /usr/bin
-[7:45:30 AM] [General] [Info]         /sbin
-[7:45:30 AM] [General] [Info]         /bin
-[7:45:30 AM] [General] [Info]         /usr/games
-[7:45:30 AM] [General] [Info]         /usr/games/bin
-[7:45:30 AM] [General] [Info]         /usr/local/games
-[7:45:30 AM] [General] [Info]         /usr/local/games/bin
-[7:45:30 AM] [General] [Info]         /snap/bin
-[7:45:30 AM] [General] [Info]         /snap/bin
-[7:45:30 AM] [General] [Info]     Found at:
-[7:45:30 AM] [General] [Info]         /home/luciano/Android/flutter/bin/
-[7:45:30 AM] [General] [Info]         /home/luciano/Android/flutter/bin
-[7:45:30 AM] [General] [Info]     Candidate paths to be post-filtered:
-[7:45:30 AM] [General] [Info]         /home/luciano/Android/flutter
-[7:45:30 AM] [General] [Info]         /home/luciano/Android/flutter
-[7:45:30 AM] [General] [Info]     Found at /home/luciano/Android/flutter
-[7:45:30 AM] [General] [Info]     Returning SDK path /home/luciano/Android/flutter for flutter
-[7:45:30 AM] [General] [Info] Searching for dart
-[7:45:30 AM] [General] [Info]     Looking for dart in:
-[7:45:30 AM] [General] [Info]         /home/luciano/Android/flutter/bin/cache/dart-sdk
-[7:45:30 AM] [General] [Info]         /home/luciano/Android/flutter/bin/cache/dart-sdk/bin
-[7:45:30 AM] [General] [Info]         /home/luciano/Android/flutter/bin
-[7:45:30 AM] [General] [Info]         /home/luciano/ANDROID
-[7:45:30 AM] [General] [Info]         /home/luciano/ANDROID/bin
-[7:45:30 AM] [General] [Info]         /home/luciano/Android/platform-tools
-[7:45:30 AM] [General] [Info]         /home/luciano/Android/platform-tools/bin
-[7:45:30 AM] [General] [Info]         /home/luciano/Android/cmdline-tools/tools/bin
-[7:45:30 AM] [General] [Info]         /home/luciano/Android/cmdline-tools/tools
-[7:45:30 AM] [General] [Info]         /home/luciano/Android/cmdline-tools/tools/bin
-[7:45:30 AM] [General] [Info]         /home/linuxbrew/.linuxbrew/bin
-[7:45:30 AM] [General] [Info]         /home/linuxbrew/.linuxbrew/sbin
-[7:45:30 AM] [General] [Info]         /home/luciano/.nvm/versions/node/v12.22.7/bin
-[7:45:30 AM] [General] [Info]         /usr/local/sbin
-[7:45:30 AM] [General] [Info]         /usr/local/bin
-[7:45:30 AM] [General] [Info]         /usr/sbin
-[7:45:30 AM] [General] [Info]         /usr/bin
-[7:45:30 AM] [General] [Info]         /sbin
-[7:45:30 AM] [General] [Info]         /bin
-[7:45:30 AM] [General] [Info]         /usr/games
-[7:45:30 AM] [General] [Info]         /usr/games/bin
-[7:45:30 AM] [General] [Info]         /usr/local/games
-[7:45:30 AM] [General] [Info]         /usr/local/games/bin
-[7:45:30 AM] [General] [Info]         /snap/bin
-[7:45:30 AM] [General] [Info]         /snap/bin
-[7:45:30 AM] [General] [Info]         /home/luciano/Android/flutter/bin/cache/dart-sdk
-[7:45:30 AM] [General] [Info]         /home/luciano/Android/flutter/bin/cache/dart-sdk/bin
-[7:45:30 AM] [General] [Info]     Found at:
-[7:45:30 AM] [General] [Info]         /home/luciano/Android/flutter/bin/cache/dart-sdk/bin
-[7:45:30 AM] [General] [Info]         /home/luciano/Android/flutter/bin
-[7:45:30 AM] [General] [Info]         /home/linuxbrew/.linuxbrew/bin
-[7:45:30 AM] [General] [Info]         /usr/bin
-[7:45:30 AM] [General] [Info]         /bin
-[7:45:30 AM] [General] [Info]         /home/luciano/Android/flutter/bin/cache/dart-sdk/bin
-[7:45:30 AM] [General] [Info] Following symlink: /home/linuxbrew/.linuxbrew/bin/dart ==> /home/linuxbrew/.linuxbrew/Cellar/dart/2.19.5/libexec/bin/dart
-[7:45:30 AM] [General] [Info] Following symlink: /usr/bin/dart ==> /usr/lib/dart/bin/dart
-[7:45:30 AM] [General] [Info] Following symlink: /bin/dart ==> /usr/lib/dart/bin/dart
-[7:45:30 AM] [General] [Info]     Candidate paths to be post-filtered:
-[7:45:30 AM] [General] [Info]         /home/luciano/Android/flutter/bin/cache/dart-sdk
-[7:45:30 AM] [General] [Info]         /home/luciano/Android/flutter
-[7:45:30 AM] [General] [Info]         /home/linuxbrew/.linuxbrew/Cellar/dart/2.19.5/libexec
-[7:45:30 AM] [General] [Info]         /usr/lib/dart
-[7:45:30 AM] [General] [Info]         /usr/lib/dart
-[7:45:30 AM] [General] [Info]         /home/luciano/Android/flutter/bin/cache/dart-sdk
-[7:45:30 AM] [General] [Info]     Found at /home/luciano/Android/flutter/bin/cache/dart-sdk
-[7:45:30 AM] [General] [Info]     Returning SDK path /home/luciano/Android/flutter/bin/cache/dart-sdk for dart
-[7:45:30 AM] [General] [Info] Experiment random number is 32 for experiment 'sdkDaps'. Experiment is enabled for <= 30
-[7:45:30 AM] [General] [Info] Experiment 'sdkDaps' does not apply and will not be activated
-[7:45:30 AM] [General] [Info] Experiment random number is 32 for experiment 'sdkDaps'. Experiment is enabled for <= 10
-[7:45:30 AM] [General] [Info] Experiment 'sdkDaps' does not apply and will not be activated
-[7:45:30 AM] [General] [Info] !! PLEASE REVIEW THIS LOG FOR SENSITIVE INFORMATION BEFORE SHARING !!
+[8:36:11 AM] [General] [Info] Searching for flutter
+[8:36:11 AM] [General] [Info]     Looking for flutter in:
+[8:36:11 AM] [General] [Info]         /var/www/html/me/flutter/curso/camap_bd_flutter
+[8:36:11 AM] [General] [Info]         /var/www/html/me/flutter/curso/camap_bd_flutter/bin
+[8:36:11 AM] [General] [Info]         /home/luciano/Android/flutter/bin/
+[8:36:11 AM] [General] [Info]         /var/www/html/me/flutter/curso/camap_bd_flutter/.flutter
+[8:36:11 AM] [General] [Info]         /var/www/html/me/flutter/curso/camap_bd_flutter/.flutter/bin
+[8:36:11 AM] [General] [Info]         /var/www/html/me/flutter/curso/camap_bd_flutter/vendor/flutter
+[8:36:11 AM] [General] [Info]         /var/www/html/me/flutter/curso/camap_bd_flutter/vendor/flutter/bin
+[8:36:11 AM] [General] [Info]         /home/luciano/snap/flutter/common/flutter
+[8:36:11 AM] [General] [Info]         /home/luciano/snap/flutter/common/flutter/bin
+[8:36:11 AM] [General] [Info]         /home/luciano/flutter-sdk
+[8:36:11 AM] [General] [Info]         /home/luciano/flutter-sdk/bin
+[8:36:11 AM] [General] [Info]         /google/flutter
+[8:36:11 AM] [General] [Info]         /google/flutter/bin
+[8:36:11 AM] [General] [Info]         /home/luciano/Android/flutter/bin
+[8:36:11 AM] [General] [Info]         /home/luciano/ANDROID
+[8:36:11 AM] [General] [Info]         /home/luciano/ANDROID/bin
+[8:36:11 AM] [General] [Info]         /home/luciano/Android/platform-tools
+[8:36:11 AM] [General] [Info]         /home/luciano/Android/platform-tools/bin
+[8:36:11 AM] [General] [Info]         /home/luciano/Android/cmdline-tools/tools/bin
+[8:36:11 AM] [General] [Info]         /home/luciano/Android/cmdline-tools/tools
+[8:36:11 AM] [General] [Info]         /home/luciano/Android/cmdline-tools/tools/bin
+[8:36:11 AM] [General] [Info]         /home/linuxbrew/.linuxbrew/bin
+[8:36:11 AM] [General] [Info]         /home/linuxbrew/.linuxbrew/sbin
+[8:36:11 AM] [General] [Info]         /home/luciano/.nvm/versions/node/v12.22.7/bin
+[8:36:11 AM] [General] [Info]         /usr/local/sbin
+[8:36:11 AM] [General] [Info]         /usr/local/bin
+[8:36:11 AM] [General] [Info]         /usr/sbin
+[8:36:11 AM] [General] [Info]         /usr/bin
+[8:36:11 AM] [General] [Info]         /sbin
+[8:36:11 AM] [General] [Info]         /bin
+[8:36:11 AM] [General] [Info]         /usr/games
+[8:36:11 AM] [General] [Info]         /usr/games/bin
+[8:36:11 AM] [General] [Info]         /usr/local/games
+[8:36:11 AM] [General] [Info]         /usr/local/games/bin
+[8:36:11 AM] [General] [Info]         /snap/bin
+[8:36:11 AM] [General] [Info]         /snap/bin
+[8:36:11 AM] [General] [Info]     Found at:
+[8:36:11 AM] [General] [Info]         /home/luciano/Android/flutter/bin/
+[8:36:11 AM] [General] [Info]         /home/luciano/Android/flutter/bin
+[8:36:11 AM] [General] [Info]     Candidate paths to be post-filtered:
+[8:36:11 AM] [General] [Info]         /home/luciano/Android/flutter
+[8:36:11 AM] [General] [Info]         /home/luciano/Android/flutter
+[8:36:11 AM] [General] [Info]     Found at /home/luciano/Android/flutter
+[8:36:11 AM] [General] [Info]     Returning SDK path /home/luciano/Android/flutter for flutter
+[8:36:11 AM] [General] [Info] Searching for dart
+[8:36:11 AM] [General] [Info]     Looking for dart in:
+[8:36:11 AM] [General] [Info]         /home/luciano/Android/flutter/bin/cache/dart-sdk
+[8:36:11 AM] [General] [Info]         /home/luciano/Android/flutter/bin/cache/dart-sdk/bin
+[8:36:11 AM] [General] [Info]         /home/luciano/Android/flutter/bin
+[8:36:11 AM] [General] [Info]         /home/luciano/ANDROID
+[8:36:11 AM] [General] [Info]         /home/luciano/ANDROID/bin
+[8:36:11 AM] [General] [Info]         /home/luciano/Android/platform-tools
+[8:36:11 AM] [General] [Info]         /home/luciano/Android/platform-tools/bin
+[8:36:11 AM] [General] [Info]         /home/luciano/Android/cmdline-tools/tools/bin
+[8:36:11 AM] [General] [Info]         /home/luciano/Android/cmdline-tools/tools
+[8:36:11 AM] [General] [Info]         /home/luciano/Android/cmdline-tools/tools/bin
+[8:36:11 AM] [General] [Info]         /home/linuxbrew/.linuxbrew/bin
+[8:36:11 AM] [General] [Info]         /home/linuxbrew/.linuxbrew/sbin
+[8:36:11 AM] [General] [Info]         /home/luciano/.nvm/versions/node/v12.22.7/bin
+[8:36:11 AM] [General] [Info]         /usr/local/sbin
+[8:36:11 AM] [General] [Info]         /usr/local/bin
+[8:36:11 AM] [General] [Info]         /usr/sbin
+[8:36:11 AM] [General] [Info]         /usr/bin
+[8:36:11 AM] [General] [Info]         /sbin
+[8:36:11 AM] [General] [Info]         /bin
+[8:36:11 AM] [General] [Info]         /usr/games
+[8:36:11 AM] [General] [Info]         /usr/games/bin
+[8:36:11 AM] [General] [Info]         /usr/local/games
+[8:36:11 AM] [General] [Info]         /usr/local/games/bin
+[8:36:11 AM] [General] [Info]         /snap/bin
+[8:36:11 AM] [General] [Info]         /snap/bin
+[8:36:11 AM] [General] [Info]         /home/luciano/Android/flutter/bin/cache/dart-sdk
+[8:36:11 AM] [General] [Info]         /home/luciano/Android/flutter/bin/cache/dart-sdk/bin
+[8:36:11 AM] [General] [Info]     Found at:
+[8:36:11 AM] [General] [Info]         /home/luciano/Android/flutter/bin/cache/dart-sdk/bin
+[8:36:11 AM] [General] [Info]         /home/luciano/Android/flutter/bin
+[8:36:11 AM] [General] [Info]         /home/linuxbrew/.linuxbrew/bin
+[8:36:11 AM] [General] [Info]         /usr/bin
+[8:36:11 AM] [General] [Info]         /bin
+[8:36:11 AM] [General] [Info]         /home/luciano/Android/flutter/bin/cache/dart-sdk/bin
+[8:36:11 AM] [General] [Info] Following symlink: /home/linuxbrew/.linuxbrew/bin/dart ==> /home/linuxbrew/.linuxbrew/Cellar/dart/2.19.5/libexec/bin/dart
+[8:36:11 AM] [General] [Info] Following symlink: /usr/bin/dart ==> /usr/lib/dart/bin/dart
+[8:36:11 AM] [General] [Info] Following symlink: /bin/dart ==> /usr/lib/dart/bin/dart
+[8:36:11 AM] [General] [Info]     Candidate paths to be post-filtered:
+[8:36:11 AM] [General] [Info]         /home/luciano/Android/flutter/bin/cache/dart-sdk
+[8:36:11 AM] [General] [Info]         /home/luciano/Android/flutter
+[8:36:11 AM] [General] [Info]         /home/linuxbrew/.linuxbrew/Cellar/dart/2.19.5/libexec
+[8:36:11 AM] [General] [Info]         /usr/lib/dart
+[8:36:11 AM] [General] [Info]         /usr/lib/dart
+[8:36:11 AM] [General] [Info]         /home/luciano/Android/flutter/bin/cache/dart-sdk
+[8:36:11 AM] [General] [Info]     Found at /home/luciano/Android/flutter/bin/cache/dart-sdk
+[8:36:11 AM] [General] [Info]     Returning SDK path /home/luciano/Android/flutter/bin/cache/dart-sdk for dart
+[8:36:11 AM] [General] [Info] Experiment random number is 32 for experiment 'sdkDaps'. Experiment is enabled for <= 30
+[8:36:11 AM] [General] [Info] Experiment 'sdkDaps' does not apply and will not be activated
+[8:36:11 AM] [General] [Info] Experiment random number is 32 for experiment 'sdkDaps'. Experiment is enabled for <= 10
+[8:36:11 AM] [General] [Info] Experiment 'sdkDaps' does not apply and will not be activated
+[8:36:11 AM] [General] [Info] !! PLEASE REVIEW THIS LOG FOR SENSITIVE INFORMATION BEFORE SHARING !!
 
 Dart Code extension: 3.66.0
 Flutter extension: 3.66.0 (not activated)
@@ -161,11 +161,12 @@ Flutter SDK:
 
 HTTP_PROXY: undefined
 NO_PROXY: undefined
-[7:45:30 AM] [General] [Info] Returning cached results for project search
-[7:45:30 AM] [General] [Info] Activating Flutter extension for Flutter project...
-[7:45:30 AM] [General] [Info] Version last used for Pub is 2.19.6 (2.19.0), current is 2.19.6 (2.19.0)
-[7:45:30 AM] [General] [Info] Found 0 folders requiring "pub get" or "pub upgrade":
-[7:45:30 AM] [General] [Info] !! PLEASE REVIEW THIS LOG FOR SENSITIVE INFORMATION BEFORE SHARING !!
+[8:36:11 AM] [General] [Info] Returning cached results for project search
+[8:36:11 AM] [General] [Info] Activating Flutter extension for Flutter project...
+[8:36:11 AM] [General] [Info] Version last used for Pub is 2.19.6 (2.19.0), current is 2.19.6 (2.19.0)
+[8:36:11 AM] [General] [Info] Found 0 folders requiring "pub get" or "pub upgrade":
+[8:36:11 AM] [General] [Info] Loaded 20000 package names from vscode-userdata:/home/luciano/.config/Code/User/globalStorage/dart-code.dart-code/package_cache.json
+[8:36:11 AM] [General] [Info] !! PLEASE REVIEW THIS LOG FOR SENSITIVE INFORMATION BEFORE SHARING !!
 
 Dart Code extension: 3.66.0
 Flutter extension: 3.66.0 (activated)
@@ -187,25 +188,22 @@ Flutter SDK:
 
 HTTP_PROXY: undefined
 NO_PROXY: undefined
-[7:45:30 AM] [General] [Info] Loaded 20000 package names from vscode-userdata:/home/luciano/.config/Code/User/globalStorage/dart-code.dart-code/package_cache.json
-[7:45:34 AM] [General] [Info] Returning cached results for project search
-[7:45:34 AM] [General] [Info] Checking 1 projects for supported platforms
-[7:45:34 AM] [General] [Info] Supported platforms for the workspace are linux, macos, windows, ios, android, web
-[7:45:52 AM] [General] [Info] Returning cached results for project search
-[7:45:52 AM] [General] [Info] Checking 1 projects for supported platforms
-[7:45:52 AM] [General] [Info] Supported platforms for the workspace are linux, macos, windows, ios, android, web
-[7:45:58 AM] [General] [Info] Saving emulator-5554 as preferred device
-[7:45:58 AM] [General] [Info] Returning cached promise for getSupportedPlatforms()
-[7:46:03 AM] [General] [Info] Starting debug session...
-[7:46:03 AM] [General] [Info]     workspace: /var/www/html/me/flutter/curso/camap_bd_flutter
-[7:46:03 AM] [General] [Info]     program  : /var/www/html/me/flutter/curso/camap_bd_flutter/lib/main.dart
-[7:46:03 AM] [General] [Info] Setting cwd based on likely entry point: /var/www/html/me/flutter/curso/camap_bd_flutter
-[7:46:03 AM] [General] [Info] Using workspace as cwd: /var/www/html/me/flutter/curso/camap_bd_flutter
-[7:46:03 AM] [General] [Info] Detected launch project as Flutter
-[7:46:03 AM] [General] [Info] Using Flutter debug adapter for this session
-[7:46:03 AM] [General] [Info] Getting DevTools server address to pass to Flutter...
-[7:46:03 AM] [General] [Info] Checking for errors before launching
-[7:46:03 AM] [General] [Info] Debug session starting...
+[8:36:16 AM] [General] [Info] Returning cached results for project search
+[8:36:16 AM] [General] [Info] Checking 1 projects for supported platforms
+[8:36:16 AM] [General] [Info] Supported platforms for the workspace are linux, macos, windows, ios, android, web
+[8:36:18 AM] [General] [Info] Returning cached promise for getSupportedPlatforms()
+[8:36:20 AM] [General] [Info] Saving emulator-5554 as preferred device
+[8:36:20 AM] [General] [Info] Returning cached promise for getSupportedPlatforms()
+[8:36:53 AM] [General] [Info] Starting debug session...
+[8:36:53 AM] [General] [Info]     workspace: /var/www/html/me/flutter/curso/camap_bd_flutter
+[8:36:53 AM] [General] [Info]     program  : /var/www/html/me/flutter/curso/camap_bd_flutter/lib/main.dart
+[8:36:53 AM] [General] [Info] Setting cwd based on likely entry point: /var/www/html/me/flutter/curso/camap_bd_flutter
+[8:36:53 AM] [General] [Info] Using workspace as cwd: /var/www/html/me/flutter/curso/camap_bd_flutter
+[8:36:53 AM] [General] [Info] Detected launch project as Flutter
+[8:36:53 AM] [General] [Info] Using Flutter debug adapter for this session
+[8:36:53 AM] [General] [Info] Getting DevTools server address to pass to Flutter...
+[8:36:53 AM] [General] [Info] Checking for errors before launching
+[8:36:53 AM] [General] [Info] Debug session starting...
     {
         "name": "Dart  (Moto G50 API 31)",
         "noDebug": false,
@@ -213,7 +211,7 @@ NO_PROXY: undefined
         "type": "dart",
         "groupId": 0,
         "program": "/var/www/html/me/flutter/curso/camap_bd_flutter/lib/main.dart",
-        "dartCodeDebugSessionID": "session-56628",
+        "dartCodeDebugSessionID": "session-65a82",
         "cwd": "/var/www/html/me/flutter/curso/camap_bd_flutter",
         "deviceId": "emulator-5554",
         "deviceName": "Moto G50 API 31 (android-x64)",
@@ -251,270 +249,10 @@ NO_PROXY: undefined
         "showMemoryUsage": false,
         "debuggerType": 2
     }
-[7:46:03 AM] [General] [Info] Using flutter debugger for Flutter
-[7:46:03 AM] [General] [Info] SDK DAP setting is false, set by sdkDaps experiment
-[7:46:03 AM] [General] [Info] Running debugger via node with /home/luciano/.vscode/extensions/dart-code.dart-code-3.66.0/out/dist/debug.js    flutter
-[7:46:03 AM] [General] [Info] Did not find session 9d2775ce-bfc0-4c31-b822-de4b1322d0c8 to handle dart.progressStart. There were 0 sessions:
-[7:46:03 AM] [General] [Info] Event will be queued and processed when the session start event fires
-[7:46:03 AM] [General] [Info] Processing delayed event dart.progressStart for session 9d2775ce-bfc0-4c31-b822-de4b1322d0c8
-[7:46:40 AM] [General] [Info] Returning cached results for project search
-[7:47:40 AM] [General] [Info] Returning cached results for project search
-[8:06:48 AM] [General] [Info] Took 65ms to search for projects (5 levels)
-[8:06:48 AM] [General] [Info] Took 6ms to filter out excluded projects (0 exclusion rules)
-[8:09:22 AM] [General] [Info] Returning cached results for project search
-[8:10:10 AM] [FlutterRun] [Error] [Dart  (Moto G50 API 31)] lib/screens/map_screen.dart:52:25: Error: The argument type 'LatLng?' can't be assigned to the parameter type 'LatLng' because 'LatLng?' is nullable and 'LatLng' isn't.
-[8:10:10 AM] [FlutterRun] [Error] [Dart  (Moto G50 API 31)]  - 'LatLng' is from 'package:google_maps_flutter_platform_interface/src/types/location.dart' ('/home/luciano/.pub-cache/hosted/pub.dev/google_maps_flutter_platform_interface-2.2.7/lib/src/types/location.dart').
-              position: _pickedPosition 
-                        ^
-lib/screens/map_screen.dart:23:16: Context: '_pickedPosition' refers to a property so it couldn't be promoted.
-See http://dart.dev/go/non-promo-property
-  late LatLng? _pickedPosition = null;
-               ^
-[8:10:15 AM] [FlutterRun] [Error] [Dart  (Moto G50 API 31)] lib/screens/map_screen.dart:52:25: Error: The argument type 'LatLng?' can't be assigned to the parameter type 'LatLng' because 'LatLng?' is nullable and 'LatLng' isn't.
- - 'LatLng' is from 'package:google_maps_flutter_platform_interface/src/types/location.dart' ('/home/luciano/.pub-cache/hosted/pub.dev/google_maps_flutter_platform_interface-2.2.7/lib/src/types/location.dart').
-[8:10:15 AM] [FlutterRun] [Error] [Dart  (Moto G50 API 31)]               position: _pickedPosition 
-                        ^
-lib/screens/map_screen.dart:23:16: Context: '_pickedPosition' refers to a property so it couldn't be promoted.
-See http://dart.dev/go/non-promo-property
-  late LatLng? _pickedPosition = null;
-               ^
-[8:12:19 AM] [General] [Info] Took 40ms to search for projects (5 levels)
-[8:12:19 AM] [General] [Info] Took 3ms to filter out excluded projects (0 exclusion rules)
-[8:13:06 AM] [General] [Info] Returning cached results for project search
-[8:16:59 AM] [General] [Info] Returning cached results for project search
-[8:21:23 AM] [General] [Info] Took 56ms to search for projects (5 levels)
-[8:21:23 AM] [General] [Info] Took 4ms to filter out excluded projects (0 exclusion rules)
-[8:25:10 AM] [General] [Info] Pubspec /var/www/html/me/flutter/curso/camap_bd_flutter/pubspec.yaml was modified
-[8:25:11 AM] [General] [Info] Returning cached results for project search
-[8:25:11 AM] [General] [Info] Version last used for Pub is 2.19.6 (2.19.0), current is 2.19.6 (2.19.0)
-[8:25:11 AM] [General] [Info] Found 1 folders requiring "pub get" or "pub upgrade":
-    /var/www/html/me/flutter/curso/camap_bd_flutter (get: true, upgrade: false, reason: pubspec.yaml was modified (Wed Jun 14 2023 08:25:10 GMT-0300 (Brasilia Standard Time)) more recently than pubspec.lock (Mon Jun 12 2023 09:11:50 GMT-0300 (Brasilia Standard Time)))
-[8:26:36 AM] [FlutterRun] [Error] [Dart  (Moto G50 API 31)] lib/screens/place_form_screen.dart:35:15: Error: Too few positional arguments: 3 required, 2 given.
-    ).addPlace(_titleController.text, _pickedImage);
-              ^
-[8:43:10 AM] [FlutterRun] [Error] [Dart  (Moto G50 API 31)] lib/screens/place_form_screen.dart:35:15: Error: Too few positional arguments: 3 required, 2 given.
-[8:43:10 AM] [FlutterRun] [Error] [Dart  (Moto G50 API 31)]     ).addPlace(_titleController.text, _pickedImage);
-              ^
-[8:43:42 AM] [FlutterRun] [Error] [Dart  (Moto G50 API 31)] lib/screens/place_form_screen.dart:35:15: Error: Too few positional arguments: 3 required, 2 given.
-    ).addPlace(_titleController.text, _pickedImage);
-[8:43:42 AM] [FlutterRun] [Error] [Dart  (Moto G50 API 31)]               ^
-[8:45:52 AM] [FlutterRun] [Error] [Dart  (Moto G50 API 31)] lib/screens/place_form_screen.dart:35:15: Error: Too few positional arguments: 3 required, 2 given.
-[8:45:52 AM] [FlutterRun] [Error] [Dart  (Moto G50 API 31)]     ).addPlace(_titleController.text, _pickedImage);
-              ^
-[8:45:59 AM] [FlutterRun] [Error] [Dart  (Moto G50 API 31)] lib/screens/place_form_screen.dart:35:15: Error: Too few positional arguments: 3 required, 2 given.
-    ).addPlace(_titleController.text, _pickedImage);
-              ^
-[8:46:28 AM] [FlutterRun] [Error] [Dart  (Moto G50 API 31)] lib/screens/place_form_screen.dart:35:15: Error: Too few positional arguments: 3 required, 2 given.
-    ).addPlace(_titleController.text, _pickedImage);
-[8:46:28 AM] [FlutterRun] [Error] [Dart  (Moto G50 API 31)]               ^
-[8:55:25 AM] [General] [Info] Took 56ms to search for projects (5 levels)
-[8:55:25 AM] [General] [Info] Took 5ms to filter out excluded projects (0 exclusion rules)
-[9:01:28 AM] [General] [Info] Took 100ms to search for projects (5 levels)
-[9:01:28 AM] [General] [Info] Took 4ms to filter out excluded projects (0 exclusion rules)
-[9:05:25 AM] [General] [Info] Returning cached results for project search
-[9:06:31 AM] [General] [Info] Took 46ms to search for projects (5 levels)
-[9:06:31 AM] [General] [Info] Took 2ms to filter out excluded projects (0 exclusion rules)
-[9:10:44 AM] [General] [Info] Starting debug session...
-[9:10:44 AM] [General] [Info]     workspace: /var/www/html/me/flutter/curso/camap_bd_flutter
-[9:10:44 AM] [General] [Info]     program  : /var/www/html/me/flutter/curso/camap_bd_flutter/lib/main.dart
-[9:10:44 AM] [General] [Info] Setting cwd based on likely entry point: /var/www/html/me/flutter/curso/camap_bd_flutter
-[9:10:44 AM] [General] [Info] Using workspace as cwd: /var/www/html/me/flutter/curso/camap_bd_flutter
-[9:10:44 AM] [General] [Info] Detected launch project as Flutter
-[9:10:44 AM] [General] [Info] Using Flutter debug adapter for this session
-[9:10:44 AM] [General] [Info] Getting DevTools server address to pass to Flutter...
-[9:10:44 AM] [General] [Info] Checking for errors before launching
-[9:10:44 AM] [General] [Info] Debug session starting...
-    {
-        "name": "Dart  (Moto G50 API 31)",
-        "noDebug": false,
-        "request": "launch",
-        "type": "dart",
-        "groupId": 0,
-        "program": "/var/www/html/me/flutter/curso/camap_bd_flutter/lib/main.dart",
-        "dartCodeDebugSessionID": "session-7f1d5",
-        "cwd": "/var/www/html/me/flutter/curso/camap_bd_flutter",
-        "deviceId": "emulator-5554",
-        "deviceName": "Moto G50 API 31 (android-x64)",
-        "toolEnv": {
-            "FLUTTER_HOST": "VSCode",
-            "PUB_ENVIRONMENT": "vscode.dart-code"
-        },
-        "sendLogsToClient": false,
-        "sendCustomProgressEvents": true,
-        "additionalProjectPaths": [
-            "/var/www/html/me/flutter/curso/camap_bd_flutter"
-        ],
-        "args": [],
-        "vmAdditionalArgs": [
-            "--no-sound-null-safety"
-        ],
-        "toolArgs": [
-            "--no-sound-null-safety",
-            "--dart-define-from-file=config.json",
-            "-d",
-            "emulator-5554",
-            "--devtools-server-address",
-            "http://127.0.0.1:9100/"
-        ],
-        "vmServicePort": 0,
-        "dartSdkPath": "/home/luciano/Android/flutter/bin/cache/dart-sdk",
-        "maxLogLineLength": 2000,
-        "debugSdkLibraries": false,
-        "debugExternalPackageLibraries": false,
-        "showDartDeveloperLogs": true,
-        "evaluateGettersInDebugViews": true,
-        "evaluateToStringInDebugViews": true,
-        "flutterSdkPath": "/home/luciano/Android/flutter",
-        "useInspectorNotificationsForWidgetErrors": true,
-        "showMemoryUsage": false,
-        "debuggerType": 2
-    }
-[9:10:44 AM] [General] [Info] Using flutter debugger for Flutter
-[9:10:44 AM] [General] [Info] SDK DAP setting is false, set by sdkDaps experiment
-[9:10:44 AM] [General] [Info] Running debugger via node with /home/luciano/.vscode/extensions/dart-code.dart-code-3.66.0/out/dist/debug.js    flutter
-[9:10:44 AM] [General] [Info] Did not find session fb70d7a5-fb43-4c30-a40a-c79ba376fdfc to handle dart.progressStart. There were 0 sessions:
-[9:10:44 AM] [General] [Info] Event will be queued and processed when the session start event fires
-[9:10:44 AM] [General] [Info] Processing delayed event dart.progressStart for session fb70d7a5-fb43-4c30-a40a-c79ba376fdfc
-[9:10:46 AM] [FlutterRun] [Error] [Dart  (Moto G50 API 31)] The current Dart SDK version is 2.19.6.
-[9:10:46 AM] [FlutterRun] [Error] [Dart  (Moto G50 API 31)] Because camap_bd_flutter depends on http >=1.0.0 which requires SDK version ^3.0.0, version solving failed.
-[9:10:46 AM] [FlutterRun] [Error] [Dart  (Moto G50 API 31)] pub get failed
-command: "/home/luciano/Android/flutter/bin/cache/dart-sdk/bin/dart __deprecated_pub --directory . get --example"
-pub env: {
-  "FLUTTER_ROOT": "/home/luciano/Android/flutter",
-  "PUB_ENVIRONMENT": "vscode.dart-code:flutter_cli:verify:run",
-  "PUB_CACHE": "/home/luciano/.pub-cache",
-}
-exit code: 1
-[9:12:44 AM] [General] [Info] Pubspec /var/www/html/me/flutter/curso/camap_bd_flutter/pubspec.yaml was modified
-[9:12:45 AM] [General] [Info] Took 32ms to search for projects (5 levels)
-[9:12:45 AM] [General] [Info] Took 5ms to filter out excluded projects (0 exclusion rules)
-[9:12:45 AM] [General] [Info] Found 1 folders requiring "pub get" or "pub upgrade":
-    /var/www/html/me/flutter/curso/camap_bd_flutter (get: true, upgrade: false, reason: package_config.json is missing)
-[9:12:59 AM] [General] [Info] Starting debug session...
-[9:12:59 AM] [General] [Info]     workspace: /var/www/html/me/flutter/curso/camap_bd_flutter
-[9:12:59 AM] [General] [Info]     program  : /var/www/html/me/flutter/curso/camap_bd_flutter/lib/main.dart
-[9:12:59 AM] [General] [Info] Setting cwd based on likely entry point: /var/www/html/me/flutter/curso/camap_bd_flutter
-[9:12:59 AM] [General] [Info] Using workspace as cwd: /var/www/html/me/flutter/curso/camap_bd_flutter
-[9:12:59 AM] [General] [Info] Detected launch project as Flutter
-[9:12:59 AM] [General] [Info] Using Flutter debug adapter for this session
-[9:12:59 AM] [General] [Info] Getting DevTools server address to pass to Flutter...
-[9:12:59 AM] [General] [Info] Checking for errors before launching
-[9:12:59 AM] [General] [Info] Debug session starting...
-    {
-        "name": "Dart  (Moto G50 API 31)",
-        "noDebug": false,
-        "request": "launch",
-        "type": "dart",
-        "groupId": 0,
-        "program": "/var/www/html/me/flutter/curso/camap_bd_flutter/lib/main.dart",
-        "dartCodeDebugSessionID": "session-669ca",
-        "cwd": "/var/www/html/me/flutter/curso/camap_bd_flutter",
-        "deviceId": "emulator-5554",
-        "deviceName": "Moto G50 API 31 (android-x64)",
-        "toolEnv": {
-            "FLUTTER_HOST": "VSCode",
-            "PUB_ENVIRONMENT": "vscode.dart-code"
-        },
-        "sendLogsToClient": false,
-        "sendCustomProgressEvents": true,
-        "additionalProjectPaths": [
-            "/var/www/html/me/flutter/curso/camap_bd_flutter"
-        ],
-        "args": [],
-        "vmAdditionalArgs": [
-            "--no-sound-null-safety"
-        ],
-        "toolArgs": [
-            "--no-sound-null-safety",
-            "--dart-define-from-file=config.json",
-            "-d",
-            "emulator-5554",
-            "--devtools-server-address",
-            "http://127.0.0.1:9100/"
-        ],
-        "vmServicePort": 0,
-        "dartSdkPath": "/home/luciano/Android/flutter/bin/cache/dart-sdk",
-        "maxLogLineLength": 2000,
-        "debugSdkLibraries": false,
-        "debugExternalPackageLibraries": false,
-        "showDartDeveloperLogs": true,
-        "evaluateGettersInDebugViews": true,
-        "evaluateToStringInDebugViews": true,
-        "flutterSdkPath": "/home/luciano/Android/flutter",
-        "useInspectorNotificationsForWidgetErrors": true,
-        "showMemoryUsage": false,
-        "debuggerType": 2
-    }
-[9:12:59 AM] [General] [Info] Using flutter debugger for Flutter
-[9:12:59 AM] [General] [Info] SDK DAP setting is false, set by sdkDaps experiment
-[9:12:59 AM] [General] [Info] Running debugger via node with /home/luciano/.vscode/extensions/dart-code.dart-code-3.66.0/out/dist/debug.js    flutter
-[9:12:59 AM] [General] [Info] Did not find session 6f0f9ce9-c489-4e5d-97ab-6b7067668caa to handle dart.progressStart. There were 0 sessions:
-[9:12:59 AM] [General] [Info] Event will be queued and processed when the session start event fires
-[9:12:59 AM] [General] [Info] Processing delayed event dart.progressStart for session 6f0f9ce9-c489-4e5d-97ab-6b7067668caa
-[9:13:30 AM] [FlutterRun] [Error] [Dart  (Moto G50 API 31)] Note: /home/luciano/.pub-cache/hosted/pub.dev/location-4.4.0/android/src/main/java/com/lyokone/location/FlutterLocation.java uses or overrides a deprecated API.
-[9:13:30 AM] [FlutterRun] [Error] [Dart  (Moto G50 API 31)] Note: Recompile with -Xlint:deprecation for details.
-[9:13:40 AM] [General] [Info] Returning cached results for project search
-[9:17:21 AM] [General] [Info] Starting debug session...
-[9:17:21 AM] [General] [Info]     workspace: /var/www/html/me/flutter/curso/camap_bd_flutter
-[9:17:21 AM] [General] [Info]     program  : /var/www/html/me/flutter/curso/camap_bd_flutter/lib/main.dart
-[9:17:21 AM] [General] [Info] Setting cwd based on likely entry point: /var/www/html/me/flutter/curso/camap_bd_flutter
-[9:17:21 AM] [General] [Info] Using workspace as cwd: /var/www/html/me/flutter/curso/camap_bd_flutter
-[9:17:21 AM] [General] [Info] Detected launch project as Flutter
-[9:17:21 AM] [General] [Info] Using Flutter debug adapter for this session
-[9:17:21 AM] [General] [Info] Getting DevTools server address to pass to Flutter...
-[9:17:21 AM] [General] [Info] Checking for errors before launching
-[9:17:21 AM] [General] [Info] Debug session starting...
-    {
-        "name": "Dart  (Moto G50 API 31)",
-        "noDebug": false,
-        "request": "launch",
-        "type": "dart",
-        "groupId": 0,
-        "program": "/var/www/html/me/flutter/curso/camap_bd_flutter/lib/main.dart",
-        "dartCodeDebugSessionID": "session-95078",
-        "cwd": "/var/www/html/me/flutter/curso/camap_bd_flutter",
-        "deviceId": "emulator-5554",
-        "deviceName": "Moto G50 API 31 (android-x64)",
-        "toolEnv": {
-            "FLUTTER_HOST": "VSCode",
-            "PUB_ENVIRONMENT": "vscode.dart-code"
-        },
-        "sendLogsToClient": false,
-        "sendCustomProgressEvents": true,
-        "additionalProjectPaths": [
-            "/var/www/html/me/flutter/curso/camap_bd_flutter"
-        ],
-        "args": [],
-        "vmAdditionalArgs": [
-            "--no-sound-null-safety"
-        ],
-        "toolArgs": [
-            "--no-sound-null-safety",
-            "--dart-define-from-file=config.json",
-            "-d",
-            "emulator-5554",
-            "--devtools-server-address",
-            "http://127.0.0.1:9100/"
-        ],
-        "vmServicePort": 0,
-        "dartSdkPath": "/home/luciano/Android/flutter/bin/cache/dart-sdk",
-        "maxLogLineLength": 2000,
-        "debugSdkLibraries": false,
-        "debugExternalPackageLibraries": false,
-        "showDartDeveloperLogs": true,
-        "evaluateGettersInDebugViews": true,
-        "evaluateToStringInDebugViews": true,
-        "flutterSdkPath": "/home/luciano/Android/flutter",
-        "useInspectorNotificationsForWidgetErrors": true,
-        "showMemoryUsage": false,
-        "debuggerType": 2
-    }
-[9:17:21 AM] [General] [Info] Using flutter debugger for Flutter
-[9:17:21 AM] [General] [Info] SDK DAP setting is false, set by sdkDaps experiment
-[9:17:21 AM] [General] [Info] Running debugger via node with /home/luciano/.vscode/extensions/dart-code.dart-code-3.66.0/out/dist/debug.js    flutter
-[9:17:21 AM] [General] [Info] Did not find session 489910cf-0a3a-4b73-a504-9cb1988fac98 to handle dart.progressStart. There were 0 sessions:
-[9:17:21 AM] [General] [Info] Event will be queued and processed when the session start event fires
-[9:17:21 AM] [General] [Info] Processing delayed event dart.progressStart for session 489910cf-0a3a-4b73-a504-9cb1988fac98
-[9:17:34 AM] [General] [Info] Returning cached results for project search
-[9:25:03 AM] [General] [Info] Took 65ms to search for projects (5 levels)
-[9:25:03 AM] [General] [Info] Took 6ms to filter out excluded projects (0 exclusion rules)
+[8:36:53 AM] [General] [Info] Using flutter debugger for Flutter
+[8:36:53 AM] [General] [Info] SDK DAP setting is false, set by sdkDaps experiment
+[8:36:53 AM] [General] [Info] Running debugger via node with /home/luciano/.vscode/extensions/dart-code.dart-code-3.66.0/out/dist/debug.js    flutter
+[8:36:54 AM] [General] [Info] Did not find session 7ffb60f8-02f0-4c03-a08a-754d5a31239f to handle dart.progressStart. There were 0 sessions:
+[8:36:54 AM] [General] [Info] Event will be queued and processed when the session start event fires
+[8:36:54 AM] [General] [Info] Processing delayed event dart.progressStart for session 7ffb60f8-02f0-4c03-a08a-754d5a31239f
+[8:37:21 AM] [General] [Info] Returning cached results for project search
